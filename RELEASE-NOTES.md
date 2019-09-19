@@ -15,7 +15,7 @@ The Release Notes are structured under two folders:
   - '/archive' -- this contains an archive of prior publically sourced Release Notes, organized by release version number. (For example, '/archive/1.21'.)
 
 Under the '/coming-release' folder or a version-numbered folder under '/archive', you'll find 4 MarkDown files:
-  - 'index.md':
+  - 'index.md': 
   - 'fixes.md':
   - 'chamges-improvements.md':
   - 'known-issues.md':
