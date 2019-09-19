@@ -20,7 +20,7 @@ Updates to Lumberyard systems and functionality include:
   + **AudioEnvironmentComponentRequestsBus** renamed to **AudioEnvironmentComponentRequestBus**
   + **AudioProxyComponentRequestsBus** renamed to **AudioProxyComponentRequestBus**
 
-  If you use the old EBus names in Lua or native C\+\+, you must update your code to use the new EBus names\. This applies if you manipulate or call into the audio components from code\.
+  If you use the old EBus names in Lua or native C++, you must update your code to use the new EBus names. This applies if you manipulate or call into the audio components from code\.
 + Fragments that play on a component entity \(`AZ::Entity`\) are now able to execute audio triggers and particle effects in their ProcClips\.
 + A basic set of unit tests have been added to CrySoundSystem, which is part of an effort to increase unit test coverage across Lumberyard\.
 + The ability to have another listener override the default has been improved\. This does not include full support for multiple active listeners\.

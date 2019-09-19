@@ -11,7 +11,7 @@ Lumberyard Beta 1\.7 adds new features, improvements, and fixes\. As we continue
 
 ## Highlights<a name="lumberyard-v1.7-highlights"></a>
 
-Here's a sampling of the new features found in Lumberyard 1\.7\.
+Here's a sampling of the new features found in Lumberyard 1.7.
 
 **Topics**
 + [Install Visual Studio 2013 and 2015 with Lumberyard Setup Assistant](#lumberyard-v1.7-highlights-setup-assistant)
