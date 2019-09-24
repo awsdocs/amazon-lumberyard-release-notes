@@ -8,7 +8,7 @@ Anyone can contribute to these Release Notes with a pull request.  The Amazon Lu
 
 You can also provide feedback by submitting Issues. As with PRs, we will respond to PRs within 5 business days of submission. We invite you to use this repo as a formal channel of communication with the Lumberyard team around releases.
 
-This is a public repo and all branches are visible. If you need to collaborate on private changes, please fork this repo to your own GitHub account, grant access to collaborators, and then submit a PR to this repo from your fork when the content is ready for public visibility.
+This is a public repo and all branches are visible. If you want to collaborate on private changes, please fork this repo to your own GitHub account, grant access to collaborators, and then submit a PR to this repo from your fork when the content is ready for public visibility.
 
 ## Lumberyard Public Release Notes Structure
 
