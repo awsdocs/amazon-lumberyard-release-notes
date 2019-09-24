@@ -10,7 +10,7 @@ Lumberyard Beta [VERSION NUMBER] adds new features, improvements, and fixes. As 
 
 ## Highlights<a name="highlights"></a>
 
-Here's a sampling of the new features found in Lumberyard 1.21.
+Here's a sampling of the new features found in Lumberyard [VERSION NUMBER].
 
 **Topics**
 + [HIGHLIGHT TOPIC 1 HERE]

@@ -15,12 +15,18 @@ The Release Notes are structured under two folders:
   - '/archive' -- this contains an archive of prior publically sourced Release Notes, organized by release version number. (For example, '/archive/1.21'.)
 
 Under the '/coming-release' folder or a version-numbered folder under '/archive', you'll find 4 MarkDown files:
-  - 'index.md': 
-  - 'fixes.md':
-  - 'chamges-improvements.md':
-  - 'known-issues.md':
-
+  - 'index.md': Authored by the Lumberyard team at the time of release. This file contains the highlighted changes for the release and links to the other pages in a release's Release Notes.
+  - 'fixes.md': A comprehensive list of fixes to Lumberyard for a release.
+  - 'chamges-improvements.md': A list of all significant changes and improvements made to Lumberyard for a specific release.
+  - 'known-issues.md': Updated list of known bugs, problems, and issues with Lumberyard as of the specific release. Please contribute to this list and keep it up-to-date!
 
 ## Lumberyard Public Release Notes Workflow
 
-##
+When a new release is started, the Lumberyard team will move the last release's Release Notes into the '/archive' folder and copy the templates over from the '/templates' folder into the '/coming-release' folder. Be sure to remove the "-template" portion of the file name.
+
+**NOTE**: Do NOT specify the version number or date(s) until the day of the release. Use "the next version of the Amazon Lumberyard beta" instead to replace any placeholder values for version numbers or dates.
+
+Finally, copy the Known Issues (known-issues.md) from the prior release into /coming-release/known-issues.md. This is because Known Issues carry over, and we will remove them as they are addressed to keep a rolling record of customer-facing bugs, problems, and concerns.
+
+
+
