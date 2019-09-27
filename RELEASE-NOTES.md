@@ -30,7 +30,6 @@ Copy Known Issues over from the text of 'known-issues.md' in the prior release. 
 
 **NOTE**: Do NOT specify the version number or date(s) until the day of the release. Use "the next version of the Amazon Lumberyard beta" instead to replace any placeholder values for version numbers or dates. All PRs that affect topics in the 'coming-release' folder will be rejected if they specify a date or version number before the release date itself.
 
-Finally, copy the Known Issues (known-issues.md) from the prior release into /coming-release/known-issues.md. This is because Known Issues carry over, and we will remove them as they are addressed to keep a rolling record of customer-facing bugs, problems, and issues.
 
 
 
