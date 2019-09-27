@@ -24,7 +24,9 @@ In the '/coming-release' folder or a version-numbered folder in '/archive', you'
 
 ## Lumberyard Public Release Notes Workflow
 
-When a new release starts, the Lumberyard Docs Team will move the prior release's Release Notes into the '/archive' folder and copy the templates from the '/templates' folder to the '/coming-release' folder. Be sure to remove the "-template" portion of the file name.
+After a release completes, the Lumberyard Docs Team will move this release's Release Notes into the '/archive' folder under a directory named after the version number (e.g. '/1.21'). Then, we copy the templates from the '/templates' folder to the '/coming-release' folder over the existing files. Be sure to remove the "-template" portion of the file name.
+
+Copy Known Issues over from the text of 'known-issues.md' in the prior release. Spot-check it to make sure everything was correctly captured. This allows contributors to remove Known Issues as they are addressed, and for the community to contribute new ones as they uncover them.
 
 **NOTE**: Do NOT specify the version number or date(s) until the day of the release. Use "the next version of the Amazon Lumberyard beta" instead to replace any placeholder values for version numbers or dates. All PRs that affect topics in the 'coming-release' folder will be rejected if they specify a date or version number before the release date itself.
 

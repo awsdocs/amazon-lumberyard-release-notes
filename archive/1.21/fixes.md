@@ -30,8 +30,8 @@ Cloud Canvas has the following fixes:
 + Fixed an issue where the login window didn't appear in the CloudGemSamples PlayerAccountSample level when the login token expired.
 + Fixed an issue in macOS, where the CloudGemSamples launcher stopped working when you tried to use the CloudGemWebCommunicator. This occurred when the AWS IoT client failed to subscribe to an invalid topic, which led to multiple SSL read errors.
 + Fixed an issue where the CloudGemWebCommunicator failed to read the certificate storage on iOS devices. This caused MQTT 703 responses.
-+  Fixed an issue where the CloudCanvasCommon gem couldn't resolve the root path for root certificates. This led to the `NETWORK_SSL_ROOT_CRT_PARSE_ERROR` in the MQTTClient that is part of the CloudGemWebCommunicator sample.
-+  Fixed an issue in the CloudGemAWSScriptBehaviors gem where responses weren't sent on the main thread. This led to missed notifications and logic errors in the Lua script.
++ Fixed an issue where the CloudCanvasCommon gem couldn't resolve the root path for root certificates. This led to the `NETWORK_SSL_ROOT_CRT_PARSE_ERROR` in the MQTTClient that is part of the CloudGemWebCommunicator sample.
++ Fixed an issue in the CloudGemAWSScriptBehaviors gem where responses weren't sent on the main thread. This led to missed notifications and logic errors in the Lua script.
 
 ## PhysX<a name="physx-fixes-v1.21"></a>
 
