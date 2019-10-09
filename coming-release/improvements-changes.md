@@ -17,10 +17,10 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 [FEATURE 2] has the following improvements and changes:
 + ...
 
-## [Networking: simplyify your code using Network Context]
+## [Networking: Network Context]
 
-[Networking: simplyify your code using Network Context] has the following improvements and changes:
-+ In Lumberyard, Network Context greatly simplifies writing multiplayer components in C++. What can take 100 lines of code in raw GridMate implementation, Network Context accomplishes in less than a dozen lines with a clean and easy to use interface.
-+ Network Context is part of the context family, alongside with Serialize Context, Edit Context and Behavior Context. Network Context allows you to tag component member variables as network fields or remote procedure calls and use them in a simpler manner, compared to direct GridMate use.
+[Networking: Network Context] has the following improvements and changes:
++ In Lumberyard, Network Context simplifies writing multiplayer components in C++. What can take 100 lines of code in raw GridMate implementation, Network Context accomplishes in less than a dozen lines with the interface.
++ Network Context is part of the context family, along with Serialize Context, Edit Context and Behavior Context. Network Context allows you to tag component member variables as network fields or remote procedure calls and use them in a simpler manner, compared to direct GridMate use.
 + <<link to the public doc on Network Context goes here>>
 + MultiplayerSample has been updated to use Network Context in multiple components, such as HealthBarComponent.
