@@ -5,6 +5,7 @@ Lumberyard Beta 1.21 provides improvements and changes to Lumberyard systems and
 **Topics**
 + [Animation Editor](#animation-improvements-changes-v1.21)
 + [Audio](#audio-improvements-changes-v1.21)
++ [Console variables](#cvar-improvements-changes-v1.21)
 + [Graph Canvas](#graph-canvas-improvements-changes-v1.21)
 + [Mobile](#mobile-improvements-changes-v1.21)
 + [Networking](#networking-improvements-changes-v1.21)
@@ -31,6 +32,16 @@ Audio has the following improvements and changes.
   + CryAudioImplWwise
 
   If you made significant changes to the Lumberyard audio systems, there could be a potential impact on your game project.
+
+## Console variables<a name="cvar-improvements-changes-v1.21"></a>
+Added two new Console variables (CVars), e_LightQuality and e_LightVolumes.
+**e_LightQuality**
+Light detail quality. Controls whether lights are created or casts shadows based on the minimum spec level set in the light configuration. 1: Creates or casts shadows from lights that have the minimum spec level set to low. 2: Creates or casts shadows from lights that have the minimum spec level set to low or medium. 3: Creates or casts shadows from lights that have the minimum spec level set to low, medium or high. 4: Creates or casts shadows from lights that have the minimum spec level set to low, medium, high or very high.
+
+**e_LightVolumes** 
+Allows deferred lighting for registered alpha blended geometry. 0 = Off, 1 = Enabled, 2 = Enabled just for sun light.
+
+**Note:** Manually add these variables to any CVar groups you created. Otherwise dynamic lights may be turned off in your game.
 
 ## Graph Canvas<a name="graph-canvas-improvements-changes-v1.21"></a>
 
