@@ -35,6 +35,7 @@ Audio has the following improvements and changes.
 
 ## Console variables<a name="cvar-improvements-changes-v1.21"></a>
 Added two new Console variables (CVars), e_LightQuality and e_LightVolumes.
+
 **e_LightQuality**
 Light detail quality. Controls whether lights are created or casts shadows based on the minimum spec level set in the light configuration. 1: Creates or casts shadows from lights that have the minimum spec level set to low. 2: Creates or casts shadows from lights that have the minimum spec level set to low or medium. 3: Creates or casts shadows from lights that have the minimum spec level set to low, medium or high. 4: Creates or casts shadows from lights that have the minimum spec level set to low, medium, high or very high.
 
