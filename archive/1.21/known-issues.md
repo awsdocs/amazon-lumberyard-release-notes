@@ -115,8 +115,8 @@ The Animation Editor has the following known issues:
 + Ragdoll requires a continuous chain of joints. For example, if you have a bipedal ragdoll setup with hip and shoulder joints, you must add all in-between joints to ensure acceptable behavior. If you don't add the in-between joints, such as spine joints, the ragdoll will produce undesired behavior.
 + Render output from the **Track View** editor is affected if an actor in the frames has **Simple Motion** and **Anim Graph** components and is controlled by the **Animation Editor**. The animation playback in the render output video appears faster than normal and is multiplied based on the FPS output of the video. To work around this issue, you can use external video capture software to record the animation playback when you run your sequences.
 + After you launch a server instance and a client instance of a game, the client can use controls to change the animation of a character.
-+ Weight triggers for the **Blend N** node are automatically set to zero. You must manually change the weight trigger.
-+ The editor stops working if you right-click in the navigation pane and cut a node that's in a pasted reference node, and then paste the node into the animation graph window.
++ Weight triggers for the **Blend N** node automatically set to zero. You must manually change the weight trigger.
++ The editor stops working if you right-click in the navigation pane and cut a node that's in a pasted reference node, and then paste that node into the animation graph window.
 + If an animation graph is referenced in another animation graph, the edited animation graph may disappear from the navigation pane when you save your changes. The editor also stops working if you click the parent node in the animation graph after you save your changes.
 + The editor stops working if you use special characters, such as " or %, for the motion ID in a motion set.
 + If a motion set is referenced in a reference node, the original motion set will be duplicated when you save your changes. The editor stops working if you remove the duplicate motion set and save your changes.
@@ -139,8 +139,8 @@ The Asset Pipeline has the following known issues:
 + When using the asset importer, an access violation may occur when attempting to save.
 + Occasionally a `.caf` file might fail to move or copy from the source folder to the destination folder. To resolve this issue, rebuild by using the `AssetProcessorBatch.exe` file.
 + Searching for multiple space-delimited keywords in the **Asset Browser** exponentially degrades performance as the number of search terms increases.
-+ An issue may prevent you from launching the editor after deleting the cache while Asset Processor is running. To work around this issue, restart Asset Processor and then relaunch the editor.
-+ The precompiled version of Asset Processor that's included in the `Bin64vs120.Dedicated` directory in the Lumberyard package doesn't initialize properly. To work around this issue, you must build the profile version of Asset Processor for the dedicated server.
++ Deleting the cache while Asset Processor is running may prevent you from launching the editor. To work around this issue, restart Asset Processor, then relaunch the editor.
++ The precompiled version of Asset Processor included in the `Bin64vs120.Dedicated` directory in the Lumberyard package doesn't initialize properly. To work around this issue, you must build the profile version of Asset Processor for the dedicated server.
 + Asset Processor may fail to rebuild dynamic slices when a component definition changes in the code. This is a result of the component not being found in the dynamic slice file. The component could have been inherited or is different in the compiled gameplay slice.
 + If you enter game mode before Asset Processor finishes processing the `.fbx` files for your level, the animations and motions might not activate. To work around this issue, wait for Asset Processor to finish processing the `.fbx` files that contain actors and motions and begin processing texture files. You can then launch the game or Lumberyard Editor.
 + You can't rename a folder while Asset Processor is processing the files in that folder.
