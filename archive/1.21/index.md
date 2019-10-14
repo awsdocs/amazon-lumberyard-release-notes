@@ -3,10 +3,10 @@
 Lumberyard Beta 1.21 adds new features, improvements, and fixes. As we continue to improve Lumberyard, we want to thank everyone in our community whose suggestions help us make a better product every release. Since the initial launch, we've overhauled over 50% of the original code base, and we're still just getting started. Keep sending feedback to our [forums](https://gamedev.amazon.com/forums/index.html) as well as lumberyard-feedback@amazon.com. For the latest Lumberyard updates, follow us on [Twitter](https://twitter.com/amznlumberyard), [Facebook](https://www.facebook.com/amazonlumberyard/), and our [blog](https://aws.amazon.com/blogs/gametech/1-21/).
 
 **Topics**
-+ [Highlights](#lumberyard-v1.21-highlights)
-+ [Improvements and Changes](lumberyard-v1.21-improvements-changes.md)
++ [Highlights](highlights)
++ [Improvements and Changes](improvements-changes.md)
 + [Fixes](fixes.md)
-+ [Known Issues](lumberyard-v1.21-known-issues.md)
++ [Known Issues](known-issues.md)
 
 ## Highlights<a name="lumberyard-v1.21-highlights"></a>
 
