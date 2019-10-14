@@ -5,7 +5,7 @@ Lumberyard Beta 1.21 adds new features, improvements, and fixes. As we continue 
 **Topics**
 + [Highlights](#lumberyard-v1.21-highlights)
 + [Improvements and Changes](lumberyard-v1.21-improvements-changes.md)
-+ [Fixes](lumberyard-v1.21-fixes.md)
++ [Fixes](fixes.md)
 + [Known Issues](lumberyard-v1.21-known-issues.md)
 
 ## Highlights<a name="lumberyard-v1.21-highlights"></a>
