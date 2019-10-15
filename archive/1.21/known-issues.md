@@ -1027,6 +1027,7 @@ Starter Game has the following known issues:
 + Certain assets might not load properly. This can cause the objects to flicker.
 + Vegetation textures may appear black when a map loads, if these textures are processed by Asset Processor while the map is loading. To work around this issue, restart Lumberyard Editor.
 + The order-independent transparency (OIT) demonstration cave is temporarily disabled. The teleporter now jumps to the next available cave.
++ Starter Game encounters frame rate drops to 5 FPS and cannot maintain more than 15 FPS after leaving the crashed ship. In fight moments while player and enemies are shooting at each other frame rate is very unstable with occasional stuttering.
 
 ## Static Mesh Component<a name="static-mesh-component-known-issues-v1.21"></a>
 
