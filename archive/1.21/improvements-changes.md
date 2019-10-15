@@ -1,6 +1,6 @@
 # Improvements and Changes<a name="lumberyard-v1.21-improvements-changes"></a>
 
-Lumberyard Beta 1.21 provides improvements and changes to Lumberyard systems and functionality.
+Lumberyard Beta 1.21 and 1.21.1 provide improvements and changes to Lumberyard systems and functionality.
 
 **Topics**
 + [Animation Editor](#animation-improvements-changes-v1.21)
