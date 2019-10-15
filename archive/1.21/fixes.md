@@ -8,6 +8,7 @@ Lumberyard Beta 1.21 resolves earlier problems. Choose a topic area to learn mor
 + [Cloud Canvas](#cloud-canvas-fixes-v1.21)
 + [PhysX](#physx-fixes-v1.21)
 + [Script Canvas](#script-canvas-fixes-v1.21)
++ [StarterGame](#startergame-fixes-v1.21)
 + [Systems](#system-fixes-v1.21)
 + [Terrain](#terrain-fixes-v1.21)
 + [UI Editor](#UI-editor-fixes-v1.21)
@@ -59,6 +60,9 @@ Script Canvas has the following fixes:
   + To trigger a specific output thread in response to a numeric value, use the **Switch** node.
   + To trigger the output slots in a specific order, use the **Ordered Sequencer** node.
 + Backward compatibility and conversion code related to the original variable implementation from Lumberyard version 1.14 is removed. Script Canvas graphs that rely on this code will now break. To work around this, update on a previous revision and port to the newest release of Lumberyard.
+
+## StarterGame <a name="startergame-fixes-v1.21"></a>
+StarterGame encounters frame rate drops to 5 FPS and cannot maintain more than 15 FPS after leaving the crashed ship. In fight moments while player and enemies are shooting at each other frame rate is very unstable with occasional stuttering.
 
 ## Systems<a name="system-fixes-v1.21"></a>
 
