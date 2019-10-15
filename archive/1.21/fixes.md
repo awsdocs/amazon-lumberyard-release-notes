@@ -6,7 +6,7 @@ Lumberyard Beta 1.21 and 1.21.1 resolves earlier problems. Choose a topic area t
 + [Asset Editor](#asset-editor-fixes-v1.21)
 + [Asset Pipeline](#asset-pipeline-fixes-v1.21)
 + [Cloud Canvas](#cloud-canvas-fixes-v1.21)
-+ [Perforce integration](#perforce-integration-fixes-v1.21)
++ [Perforce Integration](#perforce-integration-fixes-v1.21)
 + [PhysX](#physx-fixes-v1.21)
 + [Script Canvas](#script-canvas-fixes-v1.21)
 + [Systems](#system-fixes-v1.21)
