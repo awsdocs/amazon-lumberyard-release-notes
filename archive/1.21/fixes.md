@@ -1,6 +1,6 @@
 # Fixes<a name="lumberyard-v1.21-fixes"></a>
 
-Lumberyard Beta 1.21 and 1.21.1 resolves earlier problems. Choose a topic area to learn more about the related fixes.
+Lumberyard Beta 1.21 and 1.21.1 resolve earlier problems. Choose a topic area to learn more about the related fixes.
 
 **Topics**
 + [Asset Editor](#asset-editor-fixes-v1.21)
