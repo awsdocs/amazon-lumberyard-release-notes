@@ -1,6 +1,6 @@
 # Known Issues<a name="lumberyard-v1.21-known-issues"></a>
 
-Lumberyard Beta 1.21 has the following known issues. Choose a topic area to learn more. 
+Lumberyard Beta 1.21 and 1.21.1 have the following known issues. Choose a topic area to learn more. 
 
 **Topics**
 + [3D Studio Max Tools and Plugin](#studio-max-tools-and-plugin-known-issues-v1.21)
