@@ -1,11 +1,12 @@
 # Fixes<a name="lumberyard-v1.21-fixes"></a>
 
-Lumberyard Beta 1.21 resolves earlier problems. Choose a topic area to learn more about the related fixes.
+Lumberyard Beta 1.21 and 1.21.1 resolves earlier problems. Choose a topic area to learn more about the related fixes.
 
 **Topics**
 + [Asset Editor](#asset-editor-fixes-v1.21)
 + [Asset Pipeline](#asset-pipeline-fixes-v1.21)
 + [Cloud Canvas](#cloud-canvas-fixes-v1.21)
++ [Perforce integration](#perforce-integration-fixes-v1.21)
 + [PhysX](#physx-fixes-v1.21)
 + [Script Canvas](#script-canvas-fixes-v1.21)
 + [Systems](#system-fixes-v1.21)
@@ -32,6 +33,10 @@ Cloud Canvas has the following fixes:
 + Fixed an issue where the CloudGemWebCommunicator failed to read the certificate storage on iOS devices. This caused MQTT 703 responses.
 + Fixed an issue where the CloudCanvasCommon gem couldn't resolve the root path for root certificates. This led to the `NETWORK_SSL_ROOT_CRT_PARSE_ERROR` in the MQTTClient that is part of the CloudGemWebCommunicator sample.
 + Fixed an issue in the CloudGemAWSScriptBehaviors gem where responses weren't sent on the main thread. This led to missed notifications and logic errors in the Lua script.
+
+## Perforce Integration <a name="perforce-integration-fixes-v1.21"></a>
+
+Perforce no longer initializes by default in the Lumberyard Editor Perforce plugin. To initialize Perforce, set the address of the Perforce server in a P4PORT environment variable, using P4 SET P4PORT, or in a P4CONFIG file.
 
 ## PhysX<a name="physx-fixes-v1.21"></a>
 
