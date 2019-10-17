@@ -1,4 +1,4 @@
-# Lumberyard Release Notes – Beta 1.21 (September 2019)<a name="lumberyard-v1.21"></a>
+# Lumberyard Release Notes – Beta 1.21 and 1.21.1(September and October 2019)<a name="lumberyard-v1.21"></a>
 
 Lumberyard Beta 1.21 and 1.21.1 add new features, improvements, and fixes. As we continue to improve Lumberyard, we want to thank everyone in our community whose suggestions help us make a better product every release. Since the initial launch, we've overhauled over 50% of the original code base, and we're still just getting started. Keep sending feedback to our [forums](https://gamedev.amazon.com/forums/index.html) as well as lumberyard-feedback@amazon.com. For the latest Lumberyard updates, follow us on [Twitter](https://twitter.com/amznlumberyard), [Facebook](https://www.facebook.com/amazonlumberyard/), and our [blog](https://aws.amazon.com/blogs/gametech/1-21/).
 
