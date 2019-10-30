@@ -15,7 +15,7 @@ Lumberyard Beta 1.21 and 1.21.1 resolve earlier problems. Choose a topic area to
 
 ## Asset Editor<a name="asset-editor-fixes-v1.21"></a>
 
-When you open the **Asset Editor** and expand a material library, your materials now correctly appear with indents.
++ When you open the **Asset Editor** and expand a material library, your materials now correctly appear with indents.
 
 ## Asset Pipeline<a name="asset-pipeline-fixes-v1.21"></a>
 
