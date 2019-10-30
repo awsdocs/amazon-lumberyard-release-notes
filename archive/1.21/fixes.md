@@ -1,6 +1,6 @@
 # Fixes<a name="lumberyard-v1.21-fixes"></a>
 
-Lumberyard Beta 1.21 and 1.21.1 resolve earlier problems. Choose a topic area to learn more about the related fixes.
+Lumberyard Beta 1.21, 1.21.1, and 1.21.2.0 resolve earlier problems. Choose a topic area to learn more about the related fixes.
 
 **Topics**
 + [Asset Editor](#asset-editor-fixes-v1.21)
@@ -15,7 +15,9 @@ Lumberyard Beta 1.21 and 1.21.1 resolve earlier problems. Choose a topic area to
 
 ## Asset Editor<a name="asset-editor-fixes-v1.21"></a>
 
+Asset Editor has the following fixes:
 + When you open the **Asset Editor** and expand a material library, your materials now correctly appear with indents.
++ When you modify a parent entity, then undo the changes, those changes now revert correctly. 
 
 ## Asset Pipeline<a name="asset-pipeline-fixes-v1.21"></a>
 
