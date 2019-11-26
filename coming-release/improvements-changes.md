@@ -4,7 +4,7 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 **Topics**
 + [FEATURE 1](#anchor-link-here)
-+ [FEATURE 2](#anchor-link-here)
++ [Twitch Commerce SDK deprecated](#anchor-link-here)
 + [AWS Native SDK - Updated to 1.7.167](#anchor-link-here)
 + [Networking: simplyify your code using Network Context](#anchor-link-here)
 + [Mobile/macOS]
@@ -16,9 +16,9 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 [FEATURE 1] has the following improvements and changes:
 + ...
 
-## [FEATURE 2]
+## [Twitch Commerce SDK deprecated]
 
-[FEATURE 2] has the following improvements and changes:
+The Twitch Gem no longer requires the Twitch Commerce SDK. The SDK is deprecated. 
 + ...
 
 ## [AWS Native SDK version update]
