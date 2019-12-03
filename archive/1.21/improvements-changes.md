@@ -219,6 +219,7 @@ See the following UI Editor changes to Lumberyard.
 
 See the following miscellaneous changes to Lumberyard.
 + 1.21.2: Asset Editor
+
 When you modify a parent entity, then undo the changes, those changes now revert correctly.
 
 + The following APIs, systems, and tools are planned to be removed in a future release:
