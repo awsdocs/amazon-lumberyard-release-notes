@@ -3,7 +3,7 @@
 Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyard systems and functionality.
 
 **Topics**
-+ [FEATURE 1](#anchor-link-here)
++ [Visual Studio 2017](#anchor-link-here)
 + [Twitch Commerce SDK deprecated](#anchor-link-here)
 + [AWS Native SDK - Updated to 1.7.167](#anchor-link-here)
 + [Networking: simplyify your code using Network Context](#anchor-link-here)
@@ -11,9 +11,11 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 + [Miscellaneous](#misc-improvements-changes-v1.xx)
 
 
-## [FEATURE 1]
+## [Visual Studio 2017 now supported, 2015 not supported]
 
-[FEATURE 1] has the following improvements and changes:
+Lumberyard 1.22 includes the following Visual Studio support change:
++ Visual Studio 2017 version 15.9. is now the supported version.
++ Visual Studio 2015 is no longer a supported version.
 + ...
 
 ## [Twitch Commerce SDK deprecated]
