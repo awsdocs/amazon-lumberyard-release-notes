@@ -14,8 +14,8 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 ## [Visual Studio 2017 now supported, 2015 not supported]
 
 Lumberyard 1.22 includes the following Visual Studio support changes:
-+ Visual Studio 2017 version 15.9. is now the supported version.
-+ Visual Studio 2015 is no longer a supported version.
++ Visual Studio 2017 version 15.9.2 is now supported version.
++ Visual Studio 2015 is no longer supported.
 + ...
 
 ## [Twitch Commerce SDK deprecated]
