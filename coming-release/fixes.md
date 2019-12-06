@@ -4,9 +4,8 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 
 **Topics**
 + [Editor](#editor-fixes-v1.22)
-+ [FEATURE 2](#anchor-link-here)
++ [Miscellaneous](#misc-fixes-v1.22)
 
-## [FEATURE 1]
 
 ## Editor<a name="editor-fixes-v1.22"></a>
 + Selecting entities is now faster. Entity selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
@@ -60,7 +59,9 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 +  Fixed an issue displaying slice overrides in the outliner after unsuccessful slice push operations.
 
 
-## [FEATURE 2]
+## Miscellaneous<a name="misc-fixes-v1.22"></a>
++ Workspaces saved before January 2018 that had a pre-activated anim graph, won’t automatically activate the anim graph with the latest version. Users will need to activate and re-save the workspace for that.
 
-[FEATURE 2] has the following fixes:
-+ ...
++ Prior to release 1.22, transitions blended their playspeeds based on the current weight of the transition whether the sync was either enabled or disabled.  In release 1.22, when syncing is disabled, the non-synced transitions now keep the source playspeed which is the playspeed from the state it originated from until reaching the target state. The playspeed of the parent state machine will switch from the source playspeed to target state playspeed as soon as the transition is fully done.  When syncing is enabled, the transitions blend their playspeeds based on the current weight of the transition.
+
++ Starting with version 1.22, range based motion events will trigger event starts only when the time crosses the event start and lands inside the range based event. In previous versions this range based motion event scenario would trigger event starts AND active events.
