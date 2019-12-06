@@ -16,16 +16,16 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 Lumberyard 1.22 includes the following Visual Studio support changes:
 + Visual Studio 2017 version 15.9.2 is now supported version.
 + Visual Studio 2015 is no longer supported.
-+ ...
+
 
 ## [Twitch Commerce SDK deprecated]
 
-The Twitch Gem no longer requires the Twitch Commerce SDK. The SDK is deprecated. 
-+ ...
++ The Twitch Gem no longer requires the Twitch Commerce SDK. The SDK is deprecated. 
+
 
 ## [AWS Native SDK version update]
 
-AWS Native SDK version was updated to 1.7.167. 
++ AWS Native SDK version was updated to 1.7.167. 
 **Note for Linux users:** If your project or a gem depends on AWS Native SDK on Linux (such as a Twitch gem) then debug/profile builds requires your Linux configuration to have libssl.so.1.1 and libcrypto.so.1.1 present on your system. Release builds link these libraries staticly. No changes are required for release Linux builds of Lumberyard.
 
 ## [Networking: Network Context]
@@ -37,6 +37,6 @@ AWS Native SDK version was updated to 1.7.167.
 + MultiplayerSample has been updated to use Network Context in multiple components, such as HealthBarComponent.
 
 ## [Mobile/macOS]
-Added support for Xcode 11. Requires macOS High Sierra or higher.
++ Added support for Xcode 11. Requires macOS High Sierra or higher.
 
 ## Miscellaneous<a name="misc-improvements-changes-v1.xx"></a>
