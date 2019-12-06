@@ -3,12 +3,12 @@
 Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area to learn more about the related fixes.
 
 **Topics**
-+ [Asset Editor](#asset-editor-fixes-v1.22)
++ [Editor](#editor-fixes-v1.22)
 + [FEATURE 2](#anchor-link-here)
 
 ## [FEATURE 1]
 
-## Asset Editor<a name="asset-editor-fixes-v1.22"></a>
+## Editor<a name="editor-fixes-v1.22"></a>
 + Selecting entities is now faster. Entity selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
 
 + Entering Game Mode while an Entity Outliner filter is active is now faster. Entering Game Mode in a level with 20K entities while a filter is applied in the Entity Outliner used to take 5m 48s and now takes 3.18s.
