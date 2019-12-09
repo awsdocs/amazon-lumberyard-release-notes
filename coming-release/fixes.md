@@ -4,6 +4,7 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 
 **Topics**
 + [Animation Editor](#editor-fixes-v1.22)
++ [Dynamic Vegetation](#vegetation-fixes-v1.22)
 + [Miscellaneous](#misc-fixes-v1.22)
 
 
@@ -58,6 +59,9 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 
 +  Fixed an issue displaying slice overrides in the outliner after unsuccessful slice push operations.
 
+## Dynamic Vegetation<a name="vegetation-fixes-v1.22"></a>
+
++ Fixed "Show Per Instance Visualization" not functioning properly on Vegetation Debugger Component.
 
 ## Miscellaneous<a name="misc-fixes-v1.22"></a>
 + Workspaces saved before January 2018 that had a pre-activated anim graph, won’t automatically activate the anim graph with the latest version. Users will need to activate and re-save the workspace for that.
