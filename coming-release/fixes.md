@@ -15,7 +15,7 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 + Fixed an issue in TestAssetBuilder where assets were failing to process if a subfolder was renamed while the Asset Processor was running.
 
 ## Animation Editor<a name="editor-fixes-v1.22"></a>
-+ Selecting entities is now faster. Entity selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
++ Selecting entities is now faster. Selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
 
 + Entering Game Mode while an Entity Outliner filter is active is now faster. Entering Game Mode in a level with 20K entities while a filter is applied in the Entity Outliner used to take 5m 48s and now takes 3.18s.
 
@@ -70,7 +70,7 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 + Fixed "Show Per Instance Visualization" not functioning properly on Vegetation Debugger Component.
 
 ## Miscellaneous<a name="misc-fixes-v1.22"></a>
-+ Workspaces saved before January 2018 that had a pre-activated anim graph, won’t automatically activate the anim graph with the latest version. Users will need to activate and re-save the workspace for that.
++ Workspaces saved before January 2018 that had a pre-activated animation graph won’t automatically activate the anim graph with the latest version. Users will need to activate and re-save the workspace for that.
 
 + Prior to release 1.22, transitions blended their playspeeds based on the current weight of the transition whether the sync was either enabled or disabled.  In release 1.22, when syncing is disabled, the non-synced transitions now keep the source playspeed which is the playspeed from the state it originated from until reaching the target state. The playspeed of the parent state machine will switch from the source playspeed to target state playspeed as soon as the transition is fully done.  When syncing is enabled, the transitions blend their playspeeds based on the current weight of the transition.
 
