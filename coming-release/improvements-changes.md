@@ -3,15 +3,28 @@
 Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyard systems and functionality.
 
 **Topics**
++ [Asset Pipeline](#Pipeline-improvements-changes-v1.22)
 + [AWS Native SDK Updated](#SDK-improvements-changes-v1.22)
 + [Large Worlds](#Worlds-improvements-changes-v1.22)
 + [Mobile/macOS](#macOS-improvements-changes-v1.22)
 + [Networking](#network-improvements-changes-v1.22)
 + [Twitch Commerce SDK](#Twitch-improvements-changes-v1.22)
 + [Visual Studio 2017](#VS-improvements-changes-v1.22)
-+ [Miscellaneous](#misc-improvements-changes-v1.xx)
++ [Miscellaneous](#misc-improvements-changes-v1.22)
 
+## Asset Pipeline<a name="Pipeline-improvements-changes-v1.22"></a>
 
+### Asset Processor
++ Asset Processor Timer - The Asset Processor now displays 3 timers: Last Scan, Analysis, and Processing.  Each timer represents the amount of time the Asset Processor spent in each of those three phases.
++ Improved Error File Visibility - Made asset warnings more visible in the Asset Processor.
++ Added folders for platform-specific AssetProcessorPlatformConfig.ini so to separate generic vs platform-specific configs
++ Performance improvements.
+
+### Stale File Load Cleanup 
++ Removed some unnecessary calls that were loading deprecated files.
+
+### Copy Dependency Builder
++ Some copy jobs that were previously defined in AssetProcessorPlatformConfig.ini have been removed. In their place, we have a new CopyDependencyBuilder that performs the same copy to the cache. This CopyDependencyBuilder also examines the assets it copies for product dependencies, emitting what it finds.
 
 ## AWS Native SDK version update<a name="SDK-improvements-changes-v1.22"></a>
 
