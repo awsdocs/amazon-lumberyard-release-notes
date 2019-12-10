@@ -14,16 +14,16 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 ## Asset Pipeline<a name="Pipeline-improvements-changes-v1.22"></a>
 
-### Asset Processor
+**Asset Processor**
 + Asset Processor Timer - The Asset Processor now displays 3 timers: Last Scan, Analysis, and Processing.  Each timer represents the amount of time the Asset Processor spent in each of those three phases.
 + Improved Error File Visibility - Made asset warnings more visible in the Asset Processor.
 + Added folders for platform-specific AssetProcessorPlatformConfig.ini so to separate generic vs platform-specific configs
 + Performance improvements.
 
-### Stale File Load Cleanup 
+**Stale File Load Cleanup** 
 + Removed some unnecessary calls that were loading deprecated files.
 
-### Copy Dependency Builder
+**Copy Dependency Builder**
 + Some copy jobs that were previously defined in AssetProcessorPlatformConfig.ini have been removed. In their place, we have a new CopyDependencyBuilder that performs the same copy to the cache. This CopyDependencyBuilder also examines the assets it copies for product dependencies, emitting what it finds.
 
 ## AWS Native SDK version update<a name="SDK-improvements-changes-v1.22"></a>
@@ -33,12 +33,12 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 ## Large Worlds<a name="Worlds-improvements-changes-v1.22"></a>
 
-### Large Worlds: Legacy Terrain
+**Large Worlds: Legacy Terrain**
 + Users can now remove the legacy terrain system from the engine using compile/script flag enable_legacy_terrain in dev/Code/wscript.
 + Users can now enable more detailed memory, I/O, and performance metrics for the Legacy Terrain System with cvars e_TerrainPerformanceSecondsPerLog and e_TerrainPerformanceCollectMemoryStats.
 + Removed dependency on Legacy Terrain from several core systems in the engine.
 
-### Large Worlds: Roads has the following improvements and changes:
+**Large Worlds: Roads**
 + Road meshification is ~4x faster due to improvements in batching, jobification, and time slicing.
 
 ## Mobile/macOS<a name="macOS-improvements-changes-v1.22"></a>
