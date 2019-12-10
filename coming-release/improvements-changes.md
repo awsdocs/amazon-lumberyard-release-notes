@@ -4,7 +4,7 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 **Topics**
 + [AWS Native SDK - Updated to 1.7.167](#SDK-improvements-changes-v1.22)
-+ [Large Worlds] (#Worlds-improvements-changes-v1.22)
++ [Large Worlds](#Worlds-improvements-changes-v1.22)
 + [Mobile/macOS](#macOS-improvements-changes-v1.22)
 + [Networking](#network-improvements-changes-v1.22)
 + [Twitch Commerce SDK deprecated](#Twitch-improvements-changes-v1.22)
