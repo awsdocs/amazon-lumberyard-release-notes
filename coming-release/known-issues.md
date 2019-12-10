@@ -147,6 +147,7 @@ The Asset Pipeline has the following known issues:
 + You might notice an increase in processing time for `.fbx` files. This is caused by both the Asset Builder SDK and the RC compiler compiling the `.fbx` asset files.
 + When loading the getting-started-completed-level or Camera\_Sample level, you may experience graphical artifacts and see error messages in the **Console** pane. To work around this issue, allow Asset Processor to finish processing assets.
 + Asset Processor may freeze if you run Xcode for Mac and then run Asset Processor in profile mode.
++ When using the new missing asset reporting tools (Bundle mode, Seed Mode) textures will not always be properly logged.
 
 ## Audio<a name="audio-known-issues-v1.21"></a>
 
