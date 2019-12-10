@@ -19,6 +19,6 @@ Here's a sampling of the new features found in Lumberyard [1.22 link].
 
 ### AWS Native SDK version update<a name="highlights-SDK"></a>
 
-AWS Native SDK version was updated to 1.7.167. Note for Linux users: if your project or a gem depends on AWS Native SDK on Linux (such as Twitch gem) then debug/profile builds requires your Linux configuration to have libssl.so.1.1 and libcrypto.so.1.1 present on your system. Release builds link these libraries staticly, so no changes required for release Linux builds of Lumberyard.
+AWS Native SDK version was updated to 1.7.167. **Note for Linux users:** if your project or a gem depends on AWS Native SDK on Linux (such as Twitch gem) then debug/profile builds requires your Linux configuration to have libssl.so.1.1 and libcrypto.so.1.1 present on your system. Release builds link these libraries staticly, so no changes required for release Linux builds of Lumberyard.
 
 ### ...
