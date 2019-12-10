@@ -3,11 +3,11 @@
 Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyard systems and functionality.
 
 **Topics**
-+ [AWS Native SDK - Updated to 1.7.167](#SDK-improvements-changes-v1.22)
++ [AWS Native SDK Updated](#SDK-improvements-changes-v1.22)
 + [Large Worlds](#Worlds-improvements-changes-v1.22)
 + [Mobile/macOS](#macOS-improvements-changes-v1.22)
 + [Networking](#network-improvements-changes-v1.22)
-+ [Twitch Commerce SDK deprecated](#Twitch-improvements-changes-v1.22)
++ [Twitch Commerce SDK](#Twitch-improvements-changes-v1.22)
 + [Visual Studio 2017](#VS-improvements-changes-v1.22)
 + [Miscellaneous](#misc-improvements-changes-v1.xx)
 
@@ -41,7 +41,7 @@ Networking: Network Context has the following improvements and changes:
 
 ## Twitch Commerce SDK deprecated<a name="Twitch-improvements-changes-v1.22"></a>
 
-+ The Twitch Gem no longer requires the Twitch Commerce SDK. The SDK is deprecated. 
++ The Twitch Gem no longer requires the Twitch Commerce SDK. The Twitch Commerce SDK is deprecated. 
 
 ## Visual Studio 2017<a name="VS-improvements-changes-v1.22"></a>
 
@@ -50,3 +50,4 @@ Lumberyard 1.22 includes the following Visual Studio support changes:
 + Visual Studio 2015 is no longer supported.
 
 ## Miscellaneous<a name="misc-improvements-changes-v1.xx"></a>
++ The Resource Compiler Image tool will be deprecated in an upcoming Lumberyard release, replaced by the ImageProcessing gem.
