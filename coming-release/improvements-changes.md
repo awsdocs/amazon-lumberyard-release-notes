@@ -27,7 +27,8 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 + Some copy jobs that were previously defined in AssetProcessorPlatformConfig.ini have been removed. In their place, we have a new CopyDependencyBuilder that performs the same copy to the cache. This CopyDependencyBuilder also examines the assets it copies for product dependencies, emitting what it finds.
 
 **Gems version**
-Some of the included Lumberyard Gems have new versions. 
+
+Some of the Gems included have new versions. 
 + Populate the app descriptors (see the command on this page https://docs.aws.amazon.com/lumberyard/latest/userguide/az-module-gems.html) to make sure your project continues to work.
 + If populating app descriptors fails for your project, manually edit your project's Gems.json file to reference the new versions of the Gems. 
 + Update your project's Editor.xml and Game.xml (found in the config folder under project root).
