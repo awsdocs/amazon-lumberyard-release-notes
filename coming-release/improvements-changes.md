@@ -36,7 +36,7 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 Networking: Network Context has the following improvements and changes:
 + In Lumberyard, Network Context simplifies writing multiplayer components in C++. What can take 100 lines of code in raw GridMate implementation, Network Context accomplishes in less than a dozen lines with the interface.
 + Network Context is part of the context family, along with Serialize Context, Edit Context and Behavior Context. Network Context allows you to tag component member variables as network fields or remote procedure calls and use them in a simpler manner, compared to direct GridMate use.
-+ <<link to the public doc on Network Context goes here>>
++ link to the public doc on Network Context goes here
 + MultiplayerSample has been updated to use Network Context in multiple components, such as HealthBarComponent.
 
 ## Twitch Commerce SDK deprecated<a name="Twitch-improvements-changes-v1.22"></a>
