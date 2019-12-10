@@ -27,7 +27,7 @@ Here's a sampling of the new features found in Lumberyard [1.22 link].
 + XML Schema System - a framework for defining dependencies for XML files.
 + Asset Tagging System - File Tagging System. This system provides a way to "tag" an asset as a certain type such as "editor-only", "shader" or "ignore product dependencies", which is then used by the Missing Dependency Scanner and other tools.
 
-**Delta Catalogs** - .Pak files (paks) now contain smaller versions of AssetCatalog.xml that live within a pak and describe only the files within that pak.  At run time when opening a new pak file through CryPak the system will automatically search for a delta catalog within the pak and if found update the asset registry with the information within that pak file layered over the old data (You can add new assets or update old assets)
+**Delta Catalogs** - .Pak files (paks) now contain smaller versions of AssetCatalog.xml that live within a pak and describe only the files within that pak.  At run time when opening a new pak file through CryPak the system will automatically search for a delta catalog within the pak and if found update the asset registry with the information within that pak file layered over the old data (You can add new assets or update old assets).
 
 ### AWS Native SDK version update<a name="highlights-SDK"></a>
 
