@@ -3,10 +3,16 @@
 Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area to learn more about the related fixes.
 
 **Topics**
++ [Asset Pipeline](#pipeline-fixes-v1.22)
 + [Animation Editor](#editor-fixes-v1.22)
 + [Dynamic Vegetation](#vegetation-fixes-v1.22)
 + [Miscellaneous](#misc-fixes-v1.22)
 
+
+## Asset Pipeline<a name="pipeline-fixes-v1.22"></a>
+
++ Fixed a race condition in TestAssetBuilder where clean builds sometimes (not always) will fail on some (not all) test assets. 
++ Fixed an issue in TestAssetBuilder where assets were failing to process if a subfolder was renamed while the Asset Processor was running.
 
 ## Animation Editor<a name="editor-fixes-v1.22"></a>
 + Selecting entities is now faster. Entity selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
