@@ -14,6 +14,18 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 ## Asset Pipeline<a name="Pipeline-improvements-changes-v1.22"></a>
 
+### New Features
+
+**Asset Bundler** - a command line tool to bundle game assets for release. The following are additional new features that support Asset Bundling:
++ Asset Validation Gem - gem useful for run your game exclusively from Asset Bundles.
++ Product Dependency System - Builders now generate product dependencies, including copy jobs. Product dependencies are the backbone of asset bundling and allow the Asset Bundler to evaluate at an asset and determine all of the other assets that rely on it. 
++ Missing Dependency Scanner - a tool to identify potential missing product dependencies.
++ XML Schema System - a framework for defining dependencies for XML files.
++ Asset Tagging System - File Tagging System. This system provides a way to "tag" an asset as a certain type such as "editor-only", "shader" or "ignore product dependencies", which is then used by the Missing Dependency Scanner and other tools.
+
+**Delta Catalogs** - .Pak files (paks) now contain smaller versions of AssetCatalog.xml that live within a pak and describe only the files within that pak.  At run time when opening a new pak file through CryPak the system will automatically search for a delta catalog within the pak and if found update the asset registry with the information within that pak file layered over the old data (You can add new assets or update old assets).
+
+### Improvements
 **Asset Processor**
 + Asset Processor Timer - The Asset Processor now displays 3 timers: Last Scan, Analysis, and Processing.  Each timer represents the amount of time the Asset Processor spent in each of those three phases.
 + Improved Error File Visibility - Made asset warnings more visible in the Asset Processor.
