@@ -1,6 +1,6 @@
-# Amazon Lumberyard Release Notes: Known Issues in [VERSION NUMBER] ([MONTH OF RELEASE] [YEAR OF RELEASE])
+# Amazon Lumberyard Release Notes: Known Issues in 1.22 (December 2019)
 
-Lumberyard Beta [VERSION NUMBER] has the following known issues. Choose a topic area to learn more.
+Lumberyard Beta 1.22 has the following known issues. Choose a topic area to learn more.
 
 **Topics**
 + [3D Studio Max Tools and Plugin](#studio-max-tools-and-plugin-known-issues-v1.21)
