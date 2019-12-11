@@ -6,8 +6,8 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 + [Asset Pipeline](#pipeline-fixes-v1.22)
 + [Editor](#editor-fixes-v1.22)
 + [Dynamic Vegetation](#vegetation-fixes-v1.22)
-+ [Script Canvas](#scriptcanvas-fixes-v1.22)
 + [Miscellaneous](#misc-fixes-v1.22)
+
 
 ## Asset Pipeline<a name="pipeline-fixes-v1.22"></a>
 
@@ -51,6 +51,8 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 + The slice favorites editor now has an option to import a slice from a right click menu.
 
+![Import Slice](amazon-lumberyard-release-notes/coming-release/media/LY_Import Slice.gif)
+
 + The slice favorites gem is now enabled by default.
 
 + Exposed a new option in the Editor Settings called "Slice file location" which allows a user to change the default location that slices are saved.
@@ -77,6 +79,8 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 +  Users can now interact with asset reference property fields. You can click in a field, change the reference text, and see a list of assets that match the string and asset type appropriate for the field.
 
+![Asset reference property](amazon-lumberyard-release-notes/coming-release/media/LY_asset_reference_property_fields.gif)
+
 +  Removed an invalid console warning that occurred when saving a layer after the first time the layer is saved.
 
 + Removed the dialog telling customers that LY is already running if the customer tries to launch a second instance of the editor.
@@ -88,6 +92,10 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 +  Entering rename mode but not renaming a layer no longer marks the layer as dirty.
 
 +  There is now a “find layer in Asset Browser” option from a layer in the Entity Outliner.
+
+
+![Find Layer](amazon-lumberyard-release-notes/coming-release/media/LY_Find_Layer.gif)
+
 
 +  Fixed a bug that caused the editing of some properties in a pinned entity inspector to not update the unselected entity the pinned panel was pinned from.
 
@@ -114,21 +122,3 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 + Prior to release 1.22, transitions blended their playspeeds based on the current weight of the transition whether the sync was enabled or disabled.  In release 1.22, when syncing is disabled, the non-synced transitions now keep the source playspeed, which is the playspeed from the state it originated from until reaching the target state. The playspeed of the parent state machine will switch from the source playspeed to target state playspeed as soon as the transition is done.  When syncing is enabled, the transitions blend their playspeeds based on the current weight of the transition.
 
 + Starting with version 1.22, range based motion events will trigger event starts only when the time crosses the event start and land inside the range based event. In previous versions this range based motion event scenario would trigger event starts AND active events.
-
-## Script Canvas<a name="scriptcanvas-fixes-v1.22"></a>
-
-+ Fixed editor crash after saving the automatically generated graph
-
-+ Fixed editor crash when performing Shake to Desplice on a wildcard node with its string input parameter overridden
-
-+ Fixed undo changing the amount of inputs of the Repeater node 
-
-+ Fixed editor crash when collapsing a Group node created recently via Group Current Selection button while other nodes are present on the canvas 
-
-+ Fixed editor crash when trying to use Script Events method that was deleted 
-
-+ Fixed crash upon undoing a collapse of a Group node freshly created via the Group Current Selection button 
-
-+ Fixed collapsing and deleting an empty Group node created via Group Current Selection crashes the Editor 
-
-+ Fixed editor crash when saving or discarding a script with a group/comment created with the toolbar buttons 
