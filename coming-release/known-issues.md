@@ -60,7 +60,7 @@ Lumberyard Beta 1.22 has the following known issues. Choose a topic area to lear
 + [Particle Editor](#particle-editor-known-issues-v1.21)
 + [Perforce Source Control](#perforce-source-control-known-issues-v1.21)
 + [Physics (Legacy)](#physics-known-issues-v1.21)
-+ [](#physx-known-issues-v1.21)
++ [PhysX](#physx-known-issues-v1.21)
 + [Project Configurator](#project-configurator-known-issues-v1.21)
 + [Resource Compiler](#resource-compiler-known-issues-v1.21)
 + [SamplesProject](#samples-project-known-issues-v1.21)
