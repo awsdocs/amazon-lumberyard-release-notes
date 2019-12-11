@@ -110,8 +110,8 @@ Additional notes on overrun detection mode:
 + It is compiled out of Performance and Release modes.
 + The game will run slower, and will take much more memory!
 + The detector doesn't always release memory, and is liable to continue to increase memory consumption as gameplay continues. It should be enough memory to test one or two levels, but, especially on limited platforms, do not expect infinite progression.
-   1. If you run out of memory, it will crash in either WindowsPlatformAllocator::ReserveBytes or WindowsPlatformAllocator::CommitBytes.
-   1. Any invalid/read write will include the normal "Exception thrown: invalid read/write" message near the end of the output. If you don't see that message, that also indicates it's not a read/write bug.
+  * If you run out of memory, it will crash in either WindowsPlatformAllocator::ReserveBytes or WindowsPlatformAllocator::CommitBytes.
+  * Any invalid/read write will include the normal "Exception thrown: invalid read/write" message near the end of the output. If you don't see that message, that also indicates it's not a read/write bug.
 + This mode fundamentally mimics the behavior of GFlags with full page heap verification, but is available with the LY allocators without recompiling anything.
 
 
