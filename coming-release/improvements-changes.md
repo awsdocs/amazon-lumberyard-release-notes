@@ -173,6 +173,24 @@ The AssetMemoryDriller traps allocations (heap and VRAM) that occur during a sli
 When a system begins loading a new asset, it should use the **AZ_ASSET_NAMED_SCOPE** macro to demarcate the C++ scope in which that asset may be actively making allocations. 
 
 ```
+
+#include <AzCore/Debug/AssetMemoryDriller.h>
+
+Foo* LoadMyFooAsset(const char* name)
+{
+    AZ_ASSET_NAMED_SCOPE("Foo: %s", name);
+    Foo* result = aznew Foo(name);  // The call to aznew will be recorded as associated with the asset "Foo: <name>"
+    
+    return result;  // Once we exit this function, the asset will no longer be in scope, and subsequent allocations will not be recorded
+}
+```
+
+
+**Subsequent asset processing:**
+
+Later on, when a system is going to do more work involving an asset, or if the asset is being handed off to a different thread, it should use the **AZ_ASSET_ATTACH_TO_SCOPE** macro with a pointer that was allocated and tracked by the initial asset. This will associate any further allocations with the same asset: 
+
+```
 #include <AzCore/Debug/AssetMemoryDriller.h>
 
 void UpdateAllFoos(const AZStd::vector<Foo*>& allFoos)
@@ -195,14 +213,38 @@ void UpdateFoo(Foo* foo)
     });
     doThreadedWork.join();
 }
+
 ```
 
+You can attempt to attach to any pointer that was created while that asset was in scope, *or even any portion of memory that was allocated to it.* For instance, the following code works: 
 
-**Subsequent asset processing:**
+```
+#include <AzCore/Debug/AssetMemoryDriller.h>
 
-Later on, when a system is going to do more work involving an asset, or if the asset is being handed off to a different thread, it should use the AZ_ASSET_ATTACH_TO_SCOPE macro with a pointer that was allocated and tracked by the initial asset. This will associate any further allocations with the same asset. **Code example**
+struct Baz
+{
+    int a;
+    char* b;
+    double c;
+};
 
-You can attempt to attach to any pointer that was created while that asset was in scope, *or even any portion of memory that was allocated to it.* For instance, the following code works: **Code example**
+Baz* CreateBaz(const char* name)
+{
+    AZ_ASSET_NAMED_SCOPE(name);
+    Baz* baz = aznew Baz;  // bar is associated with the named asset
+    return baz;
+}
+
+void TestScopes()
+{
+    Baz* baz = CreateBaz("My test baz");
+    
+    {
+        AZ_ASSET_ATTACH_TO_SCOPE(&baz->c);  // This works, even though "c" didn't have its own allocation
+        baz->b = aznew char[32];  // This allocation will be recorded under the asset "My test baz"
+    }
+}
+```
 
 What this means is that you don't need an original pointer to an object that was allocated within a scope in order to attach to it, just something "close enough". This makes it possible to attach across systems to objects that have been defined with multiple inheritance.
 
@@ -210,7 +252,22 @@ What this means is that you don't need an original pointer to an object that was
 
 Ebus handlers can automatically attempt to attach to a scope for each handler receiving an event. This works when the handler itself was allocated as part of an asset.
 
-If the handler was created while an asset was in scope, modify an Ebus as follows: **Code example**
+If the handler was created while an asset was in scope, modify an Ebus as follows: 
+
+```
+#include <AzCore/Debug/AssetMemoryDriller.h>
+
+class MyEvents : public AZ::EBusTraits
+{
+    // Process individual events by first attempting to attach to the asset that owns the handler
+    template<typename Bus>
+    using EventProcessingPolicy = Debug::AssetMemoryDrillerEventProcessingPolicy<Bus>;
+
+    // Regular Ebus definitions
+    virtual void MyFunction() = 0;
+};
+
+```
 
 Some Lumberyard Ebuses already use this feature, such as the TickBus. If you find others that should use it, please add them! (But you should not default to using this EventProcessingPolicy if it is not applicable; see instrumentation considerations below.)
 
