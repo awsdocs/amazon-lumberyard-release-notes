@@ -80,8 +80,8 @@ Memory Improvements
 + Memory stomp detection tool. When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
 + Improved memory tracking for VRAM and display of e_MemoryProfiling cvar (LY-104969). Memory usage now is broken down:
   + VRAM
-   + Texture: Render targets, Assets, Dynamic
-   + Buffer: Vertex, Index, Constant, Other
+   Texture: Render targets, Assets, Dynamic
+   Buffer: Vertex, Index, Constant, Other
    + CPU: broken down by main allocators
 + Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds)
 + Asset Memory Analyzer Asset Memory Analyzer
