@@ -77,6 +77,8 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 +  Users can now interact with asset reference property fields. You can click in a field, change the reference text, and see a list of assets that match the string and asset type appropriate for the field.
 
+![Asset reference property](/media/LY_asset_reference_property_fields.gif)
+
 +  Removed an invalid console warning that occurred when saving a layer after the first time the layer is saved.
 
 + Removed the dialog telling customers that LY is already running if the customer tries to launch a second instance of the editor.
