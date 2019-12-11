@@ -312,13 +312,11 @@ There is **zero cost to instrumentation** in builds where the AssetMemoryDriller
 
 ## PhysX<a name="physx-improvements-changes-v1.22"></a>
 
-#### DevTextures Gem
+#### New Gems
 
-The DevTextures Gem is collection of textures used for development and debugging. It includes a variety of grid texture types such as middle grey checker, UV debugging grids, and simple shapes like dot and ring. The purpose of this Gem is to become a library for texture assets that are commonly used in projects.
++ DevTextures: The DevTextures Gem is collection of textures used for development and debugging. It includes a variety of grid texture types such as middle grey checker, UV debugging grids, and simple shapes like dot and ring. The purpose of this Gem is to become a library for texture assets that are commonly used in projects.
 
-#### PhysXSamples Gem
-
-The PhysXSamples Gem houses a collection of sample slices and scripts ranging from introductory feature examples to a fully animated 3rd person character controller. (Currently PC Platform only)
++ PhysXSamples: The PhysXSamples Gem houses a collection of sample slices and scripts ranging from introductory feature examples to a fully animated 3rd person character controller. (Currently PC Platform only)
 
 Slices in the Gem include:
 
@@ -333,6 +331,12 @@ Slices in the Gem include:
 + Quadcopter: Uses impulse force powered by the new Post Physics handler to fly around and stabilize hovering. Additional scripts include camera rig behaviors customized for flying, and scripts that change the propeller rotation speed based on velocity. This slice can also be combined with the weapon projectile slice. which fires rigid body spheres, and the rotor wash slice which uses a force volume to interact with rigid bodies in the world. (Recommend turning on Continuous Collision Detection on in the Global Physics configuration settings.)
 + Cowboy and Revolver: Example of using the PhysX character controller and actor components together with animation tools and script canvas to drive gameplay. Controller supports both root motion and direct motion for moving the controller. Included is a customized 3rd person camera rig and behaviors that use character speed to dynamically dolly the camera in/out and change the camera field of view. While the character pose assumes a weapon is always in hand, the Revolver gun slice is optional, and opens up the possibilities for weapons to be dynamically attached and detached. Unlike the rigid body weapon, the revolver uses ray casts for shooting (hit scan) and interpolates a tracer round to the target.
 
+#### Improvements
+
++ Pre and post physics world update events are exposed in script canvas (the behaviour context).
++ Component mode is introduced for PhysX collider components. This allows the modification of shape dimensions, position and rotation offsets for collider components directly in the viewport with manipulators.
++ Force regions are improved to send impulses on post physics world update instead of the rendering tick.
++ Bug fixes.
 ## Networking<a name="network-improvements-changes-v1.22"></a>
 
 Network Context has the following improvements and changes:
