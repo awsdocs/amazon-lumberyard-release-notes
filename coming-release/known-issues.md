@@ -60,7 +60,7 @@ Lumberyard Beta 1.22 has the following known issues. Choose a topic area to lear
 + [Particle Editor](#particle-editor-known-issues-v1.21)
 + [Perforce Source Control](#perforce-source-control-known-issues-v1.21)
 + [Physics (Legacy)](#physics-known-issues-v1.21)
-+ [PhysX](#physx-known-issues-v1.21)
++ [](#physx-known-issues-v1.21)
 + [Project Configurator](#project-configurator-known-issues-v1.21)
 + [Resource Compiler](#resource-compiler-known-issues-v1.21)
 + [SamplesProject](#samples-project-known-issues-v1.21)
@@ -882,6 +882,7 @@ The PhysX system has the following known issues:
 + The **PhysX Collider** component is limited to one collision shape. This means you can add only one shape component per entity. The **PhysX Collider** component doesn't use shapes from child entities.
 + The **PhysX Character Controller** component must be on the same entity as the **Actor** component in order to work with the **Animation Editor**.
 + The following **PhysX Character Controller** features don't work properly: up direction, maximum slope angle, and step height.
++ If a ragdoll is authored in such a way that colliders on non-adjacent joints overlap and prevent the joint constraints from being satisfied (and are not prevented from colliding using collision filters), then unstable simulation behaviour can result, especially if the "Position Iteration Count" or "Velocity Iteration Count" parameters of the PhysX Ragdoll Component are set to high values.  
 + If you need ragdoll functionality, use the legacy physics controller with the **PhysX Ragdoll** component.
 + Joint limits may be exceeded in the ragdoll because of interactions with animated movements.
 + To save changes to the **PhysX Terrain** component, you must save and export the terrain.
