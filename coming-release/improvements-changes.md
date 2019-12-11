@@ -77,7 +77,7 @@ Some of the Gems included have new versions.
 
 ## Systems<a name="systems-improvements-changes-v1.22"></a>
 
-Memory Improvements
+**Memory Improvements**
 + Memory stomp detection tool. When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
 + Improved memory tracking for VRAM and display of e_MemoryProfiling cvar (LY-104969). Memory usage now is broken down:
   + VRAM
@@ -85,7 +85,18 @@ Memory Improvements
    Buffer: Vertex, Index, Constant, Other
    + CPU: broken down by main allocators
 + Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds).
-+ Asset Memory Analyzer Asset Memory Analyzer.
+##### Asset Memory Analyzer.
+The Asset Memory Analyzer is an experimental feature that gives you a breakdown of all memory that has been allocated by the various assets loaded into the game. Use it to get a better idea of what assets are actually loaded at runtime and what their individual contribution is to memory use.
+Usage
+Enabling the driller
+1. Edit AzCore/Debug/AssetMemoryDriller.h, and ensure AZ_ANALYZE_ASSET_MEMORY is defined (just need to uncomment the line). 
+1. If you want to enable analysis in other build types (excluding Release), you may manually enable memory tracking:
+  1. Edit dev/Code/Framework/AzCore/AzCore/Memory/Config.h
+  1. Uncomment the line that says #define AZCORE_ENABLE_MEMORY_TRACKING
+1. Edit Game.xml located in dev/Dragonfly/Config:
+1. Set the field enableDrilling to true.
+1. Set the field enableAssetMemoryDriller to true.
+
 + Memory driller: fixes to dump all allocations to CSV file.
 **NOTE**: with any change affecting memory layout, previous memory-related bugs that did not cause crashes/issues could now produce unexpected behavior. For example, a memory overrun that previously was not producing any visible/detectable bug, may now produce issues.
 + IMGUI Improvements: Now using the latest version of IMGUI with added support for consoles and controllers.
