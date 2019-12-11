@@ -98,7 +98,6 @@ Android has the following known issues:
 + The Cloud Canvas speech recognition feature records corrupted audio files on the following devices: Nexus 7 II (Android: 6.0.1) and Huawei P9 Lite, Model: VNS-L21 (Android: 6.0).
 + Lumberyard applications don't run properly on the Asus ZenFone 3 Max.
 + You may receive the following build error message: "Task in 'javac' was not executed for some reason." This occurs if the generated output files exceed the maximum path length for the host platform. To work around this issue, use a shorter path for your project or Lumberyard installation.
-+ NDK 20 isn't yet supported. This is planned to be addressed in an upcoming release.
 
 ## Android Studio<a name="android-studio-known-issues-v1.21"></a>
 
