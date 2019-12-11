@@ -77,8 +77,10 @@ Some of the Gems included have new versions.
 
 ## Systems<a name="systems-improvements-changes-v1.22"></a>
 
-### Memory stomp detection tool
-When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
+### New Features
+
+#### Memory stomp detection tool
+When enabled, provides overrun detection, checking for memory corrupted by reads/writes outside the boundaries of allocated memory.   
 
 The primary sign of what might be a memory stomp is a crash with no obvious explanation, frequently in a low-level system or structure (such as an AZStd:: container) or within the memory allocator (but not an out-of-memory error).
 
@@ -109,10 +111,10 @@ Additional notes on overrun detection mode:
 + This mode fundamentally mimics the behavior of GFlags with full page heap verification, but is available with the LY allocators without recompiling anything.
 
 
-### Asset Memory Analyzer
+#### Asset Memory Analyzer
 The Asset Memory Analyzer is an experimental feature that gives you a breakdown of all memory that has been allocated by the various assets loaded into the game. Use it to get a better idea of what assets are actually loaded at runtime and what their individual contribution is to memory use.
 
-#### Usage
+##### Usage
 
 **Enable the driller:**
 
@@ -193,7 +195,7 @@ Most of the time this is a relatively small cost in the scheme of things, but it
 There is **zero cost to instrumentation** in builds where the AssetMemoryDriller is disabled, i.e. if the AZ_ANALYZE_ASSET_MEMORY macro remains undefined. (This is the default in Performance builds.)
 
 
-### Other improvements
+### Improvements
 + Improved memory tracking for VRAM and display of e_MemoryProfiling cvar (LY-104969). Memory usage now is broken down:
   + VRAM
    Texture: Render targets, Assets, Dynamic
