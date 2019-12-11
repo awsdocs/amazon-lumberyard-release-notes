@@ -226,7 +226,7 @@ struct Baz
     int a;
     char* b;
     double c;
-};
+}
 
 Baz* CreateBaz(const char* name)
 {
