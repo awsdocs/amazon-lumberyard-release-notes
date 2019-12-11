@@ -56,8 +56,8 @@ The Asset Memory Analyzer is an experimental feature that gives you a breakdown 
 
 ### PhysX - New Gems<a name="highlights-physx"></a>
 
-+ DevTextures Gem
++ DevTextures Gem: 
 The DevTextures Gem is collection of textures used for development and debugging. It includes a variety of grid texture types such as middle grey checker, UV debugging grids, and simple shapes like dot and ring. The purpose of this Gem is to become a library for texture assets that are commonly used in projects.
 
-+ PhysXSamples Gem
++ PhysXSamples Gem: 
 The PhysXSamples Gem houses a collection of sample slices and scripts ranging from introductory feature examples to a fully animated 3rd person character controller. (Currently PC Platform only)
