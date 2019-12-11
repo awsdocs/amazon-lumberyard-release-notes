@@ -8,6 +8,7 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 + [Large Worlds](#Worlds-improvements-changes-v1.22)
 + [Mobile/macOS](#macOS-improvements-changes-v1.22)
 + [Networking](#network-improvements-changes-v1.22)
++ [Systems](#systems-improvements-changes-v1.22)
 + [Twitch Commerce SDK](#Twitch-improvements-changes-v1.22)
 + [Visual Studio 2017](#VS-improvements-changes-v1.22)
 + [Miscellaneous](#misc-improvements-changes-v1.22)
@@ -72,6 +73,20 @@ Some of the Gems included have new versions.
 **Large Worlds: Roads**
 
 + Road meshification is ~4x faster due to improvements in batching, jobification, and time slicing.
+
+## Systems<a name="systems-improvements-changes-v1.22"></a>
+
+Memory Improvements
++ Memory stomp detection tool. When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
++ Improved memory tracking for VRAM and display of e_MemoryProfiling cvar (LY-104969). Memory usage now is broken down:
+++ VRAM
++++ Texture: Render targets, Assets, Dynamic
++++ Buffer: Vertex, Index, Constant, Other
+++ CPU: broken down by main allocators
++ Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds)
++ Asset Memory Analyzer Asset Memory Analyzer
++ Memory driller: fixes to dump all allocations to CSV file
+**NOTE**: with any change affecting memory layout, previous memory-related bugs that did not cause crashes/issues could now produce unexpected behavior. For example, a memory overrun that previously was not producing any visible/detectable bug, may now produce issues.
 
 ## Mobile/macOS<a name="macOS-improvements-changes-v1.22"></a>
 
