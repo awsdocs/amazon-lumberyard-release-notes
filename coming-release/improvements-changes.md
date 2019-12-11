@@ -77,26 +77,87 @@ Some of the Gems included have new versions.
 
 ## Systems<a name="systems-improvements-changes-v1.22"></a>
 
-**Memory Improvements**
-+ Memory stomp detection tool. When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
+### Memory stomp detection tool
+When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
+
+### Asset Memory Analyzer
+The Asset Memory Analyzer is an experimental feature that gives you a breakdown of all memory that has been allocated by the various assets loaded into the game. Use it to get a better idea of what assets are actually loaded at runtime and what their individual contribution is to memory use.
+Use
+
+Enabling the driller:
+1. Edit AzCore/Debug/AssetMemoryDriller.h, and ensure AZ_ANALYZE_ASSET_MEMORY is defined (just need to uncomment the line). 
+1. If you want to enable analysis in other build types (excluding Release), you may manually enable memory tracking:
+    1. Edit dev/Code/Framework/AzCore/AzCore/Memory/Config.h
+    1. Uncomment the line that says #define AZCORE_ENABLE_MEMORY_TRACKING
+1. Edit Game.xml located in dev/Dragonfly/Config:
+1. Set the field enableDrilling to true.
+1. Set the field enableAssetMemoryDriller to true.
+
+View the live analysis in ImGUI:
+If ImGUI is enabled, you can open the analysis window by choosing AssetMemoryAnalyzer → Open from the debug menu.
+This opens the Asset Memory Analysis window.
+
+Each recorded asset is displayed, along with the number of allocations and total kilobytes allocated, for both heap and VRAM.
+You can use the buttons at the top of the window to sort descending on any of the available categories.
+You can expand individual assets to view both:
++ Individual allocations that belong to an asset, and
++ Sub-assets that were loaded as a consequence of loading this asset.
+
+Export the analysis to a JSON file
+You can export the analysis to a JSON file in a number of ways:
++ If ImGUI is enabled, you can choose AssetMemoryAnalyzer → Export JSON from the debug menu.
++ In the console, you can enter assetmem_export to generate the file.
++ From C++ code, you can call ExportJSONFile on the AssetMemoryAnalyzerRequestBus, with nullptr as the parameter to generate it to the default location.
+  + Example: EBUS_EVENT(AssetMemoryAnalyzerRequestBus, ExportJSONFile, nullptr);
+This will generate a file in your @log@ directory (e.g. dev/Cache/dragonfly/pc/user/log on Windows) titled assetmem-<TIMESTAMP>.json.
+
+View JSON files in the web viewer
+The web viewer is located at dev/Gems/AssetMemoryAnalyzer/www/AssetMemoryViewer/index.html.
+Open it your web browser (Chrome appears to be most reliable), and on the webpage that opens you can drag-and-drop your JSON file or click on the target area to browse to it.
+This will display the contents of the file in an expandable table. You can sort the table by any of the columns. The columns give a breakdown by multiple categories:
++ Heap Allocations and VRAM Allocations
++ Local summary (i.e. not including any sub-assets) and Total summary (i.e. including all sub-assets)
++ Number of allocations and kilobytes allocated
+Drill into any of the listed assets to discover:
++ Individual allocations belonging to that asset.
++ Sub-assets that were loaded as a consequence of loading this asset.
+
+Instrument Code
+Initial asset loading:
+The AssetMemoryDriller traps allocations (heap and VRAM) that occur during a slice of code execution or "scope" when an asset is active for recording. 
+When a system begins loading a new asset, it should use the AZ_ASSET_NAMED_SCOPE macro to demarcate the C++ scope in which that asset may be actively making allocations. **Code example**
+
+Subsequent asset processing:
+Later on, when a system is going to do more work involving an asset, or if the asset is being handed off to a different thread, it should use the AZ_ASSET_ATTACH_TO_SCOPE macro with a pointer that was allocated and tracked by the initial asset. This will associate any further allocations with the same asset. **Code example**
+
+You can attempt to attach to any pointer that was created while that asset was in scope, *or even any portion of memory that was allocated to it.*
+
+For instance, the following code works: **Code example**
+
+What this means is that you don't need an original pointer to an object that was allocated within a scope in order to attach to it, just something "close enough". This makes it possible to attach across systems to objects that have been defined with multiple inheritance.
+
+Ebus asset processing:
+Ebus handlers can automatically attempt to attach to a scope for each handler receiving an event. This works when the handler itself was allocated as part of an asset.
+
+If the handler was created while an asset was in scope, you can modify an Ebus as follows: **Code example**
+
+Some Lumberyard Ebuses already use this feature, such as the TickBus. If you find others that should use it, please add them! (But you should not default to using this EventProcessingPolicy if it is not applicable; see Cost of instrumentation below.)
+
+Instrumentation considerations:
+
++ Creating a new named scope requires function calls, an environment lookup, locking a mutex, two hashtable lookups, and thread-local modifications.
++ Attaching to an existing scope requires function calls, an environment lookup, locking a mutex, a lookup in a large red-black tree, and thread-local modifications.
+Most of the time this is a relatively small cost in the scheme of things, but it is significant enough that you should not use the AZ_ASSET_ATTACH_TO_SCOPE macro (or use the AssetMemoryDrillerEventProcessingPolicy on your Ebus) redundantly, or if it is unlikely to attach to anything.
+
+There is **zero cost to instrumentation** in builds where the AssetMemoryDriller is disabled, i.e. if the AZ_ANALYZE_ASSET_MEMORY macro remains undefined. (This is the default in Performance builds.)
+
+**Other improvements**
 + Improved memory tracking for VRAM and display of e_MemoryProfiling cvar (LY-104969). Memory usage now is broken down:
   + VRAM
    Texture: Render targets, Assets, Dynamic
    Buffer: Vertex, Index, Constant, Other
    + CPU: broken down by main allocators
 + Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds).
-##### Asset Memory Analyzer.
-The Asset Memory Analyzer is an experimental feature that gives you a breakdown of all memory that has been allocated by the various assets loaded into the game. Use it to get a better idea of what assets are actually loaded at runtime and what their individual contribution is to memory use.
-Usage
-Enabling the driller
-1. Edit AzCore/Debug/AssetMemoryDriller.h, and ensure AZ_ANALYZE_ASSET_MEMORY is defined (just need to uncomment the line). 
-1. If you want to enable analysis in other build types (excluding Release), you may manually enable memory tracking:
-  1. Edit dev/Code/Framework/AzCore/AzCore/Memory/Config.h
-  1. Uncomment the line that says #define AZCORE_ENABLE_MEMORY_TRACKING
-1. Edit Game.xml located in dev/Dragonfly/Config:
-1. Set the field enableDrilling to true.
-1. Set the field enableAssetMemoryDriller to true.
-
 + Memory driller: fixes to dump all allocations to CSV file.
 **NOTE**: with any change affecting memory layout, previous memory-related bugs that did not cause crashes/issues could now produce unexpected behavior. For example, a memory overrun that previously was not producing any visible/detectable bug, may now produce issues.
 + IMGUI Improvements: Now using the latest version of IMGUI with added support for consoles and controllers.
