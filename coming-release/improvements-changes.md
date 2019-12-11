@@ -252,23 +252,6 @@ What this means is that you don't need an original pointer to an object that was
 
 Ebus handlers can automatically attempt to attach to a scope for each handler receiving an event. This works when the handler itself was allocated as part of an asset.
 
-If the handler was created while an asset was in scope, modify an Ebus as follows: 
-
-```
-#include <AzCore/Debug/AssetMemoryDriller.h>
-
-class MyEvents : public AZ::EBusTraits
-{
-    // Process individual events by first attempting to attach to the asset that owns the handler
-    template<typename Bus>
-    using EventProcessingPolicy = Debug::AssetMemoryDrillerEventProcessingPolicy<Bus>;
-
-    // Regular Ebus definitions
-    virtual void MyFunction() = 0;
-};
-
-```
-
 Some Lumberyard Ebuses already use this feature, such as the TickBus. If you find others that should use it, please add them! (But you should not default to using this EventProcessingPolicy if it is not applicable; see instrumentation considerations below.)
 
 **Instrumentation considerations:**
