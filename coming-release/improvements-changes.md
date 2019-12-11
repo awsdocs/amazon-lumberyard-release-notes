@@ -6,7 +6,8 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 + [Asset Pipeline](#Pipeline-improvements-changes-v1.22)
 + [AWS Native SDK Updated](#SDK-improvements-changes-v1.22)
 + [Large Worlds](#Worlds-improvements-changes-v1.22)
-+ [Mobile/macOS](#macOS-improvements-changes-v1.22)
++ [Mobile](#mobile-improvements-changes-v1.22)
++ [Platform](#platform-improvements-changes-v1.22)
 + [Networking](#network-improvements-changes-v1.22)
 + [Systems](#systems-improvements-changes-v1.22)
 + [Twitch Commerce SDK](#Twitch-improvements-changes-v1.22)
@@ -83,14 +84,28 @@ Memory Improvements
    Texture: Render targets, Assets, Dynamic
    Buffer: Vertex, Index, Constant, Other
    + CPU: broken down by main allocators
-+ Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds)
-+ Asset Memory Analyzer Asset Memory Analyzer
-+ Memory driller: fixes to dump all allocations to CSV file
++ Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds).
++ Asset Memory Analyzer Asset Memory Analyzer.
++ Memory driller: fixes to dump all allocations to CSV file.
 **NOTE**: with any change affecting memory layout, previous memory-related bugs that did not cause crashes/issues could now produce unexpected behavior. For example, a memory overrun that previously was not producing any visible/detectable bug, may now produce issues.
++ IMGUI Improvements: Now using the latest version of IMGUI with added support for consoles and controllers.
++ Asserts Framework improvement: Now using only AZ_Assert with 3 levels of the sys_assert CVAR:  0: nothing, 1: log only, 2: dialog when asserts fails on all platforms.
 
-## Mobile/macOS<a name="macOS-improvements-changes-v1.22"></a>
+## Mobile<a name="mobile-improvements-changes-v1.22"></a>
 
 + Added support for Xcode 11. Requires macOS High Sierra or higher.
++ Support for iOS v13 
++ iOS and Android: Optimization for GPU Bandwidth - Eliminate 'Diffuse Accumulation' render target during the Lighting pass which resulted in memory savings of 88 bits per pixel perf frame. It is enabled through cvar "r_DeferredShadingLBuffersFmt = 2".
++ Latest NDK (r20) support.
++ Improvements to Release/Shader Compilation workflow (Remove extra step, Error reporting).
++ Android: Improve Load Times by 40 percent faster when loading assets from the .APK not in .pak files.
++ Support for Android Q - API 29
+
+## Platform<a name="platform-improvements-changes-v1.22"></a>
++ Achievements/trophies Gem: The Achievement Gem provides an interface to your game to Achievement and Trophy services for console games. It allows for games to unlock, query, and update achievement and trophy data through the services provided for that console. 
+
++ Add Rich presence to Platform services: The Presence Gem provides an interface to your game to the Presence services for console games. It allows for games to set and query the presence status for a user on that console. Presence is the message that is displayed in friends lists and on a users profile as set by the game based on the user's activity. 
+
 
 ## Networking<a name="network-improvements-changes-v1.22"></a>
 
