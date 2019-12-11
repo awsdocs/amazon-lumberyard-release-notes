@@ -170,7 +170,33 @@ Drill into any of the listed assets to discover:
 
 The AssetMemoryDriller traps allocations (heap and VRAM) that occur during a slice of code execution or "scope" when an asset is active for recording. 
 
-When a system begins loading a new asset, it should use the AZ_ASSET_NAMED_SCOPE macro to demarcate the C++ scope in which that asset may be actively making allocations. **Code example**
+When a system begins loading a new asset, it should use the **AZ_ASSET_NAMED_SCOPE** macro to demarcate the C++ scope in which that asset may be actively making allocations. 
+
+```
+#include <AzCore/Debug/AssetMemoryDriller.h>
+
+void UpdateAllFoos(const AZStd::vector<Foo*>& allFoos)
+{
+    for (Foo* foo : allFoos)
+    {
+        AZ_ASSET_ATTACH_TO_SCOPE(foo);  // Subsequent allocations in this scope will associate with any asset that was in scope when foo was allocated
+        UpdateFoo(foo);
+    }
+}
+
+void UpdateFoo(Foo* foo)
+{
+    aznew Bar;  // This automatically gets recorded with the owning asset for foo
+    AZStd::thread doThreadedWork([foo]()
+    {
+        // Work being done on a different thread means we need to reattach to the owning asset
+        AZ_ASSET_ATTACH_TO_SCOPE(foo);
+        aznew Bar;  // This will now be recorded under the owning asset for foo
+    });
+    doThreadedWork.join();
+}
+```
+
 
 **Subsequent asset processing:**
 
