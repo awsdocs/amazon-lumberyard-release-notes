@@ -117,21 +117,21 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 ## Script Canvas<a name="scriptcanvas-fixes-v1.22"></a>	
 
-+ Fixed editor crash after saving the automatically generated graph	
++ Fixed editor crash after saving the automatically generated graph.
 
-+ Fixed editor crash when performing Shake to Desplice on a wildcard node with its string input parameter overridden	
++ Fixed editor crash when performing Shake to Desplice on a wildcard node with its string input parameter overridden.	
 
-+ Fixed undo changing the amount of inputs of the Repeater node 	
++ Fixed undo changing the amount of inputs of the Repeater node. 	
 
-+ Fixed editor crash when collapsing a Group node created recently via Group Current Selection button while other nodes are present on the canvas 	
++ Fixed editor crash when collapsing a Group node created recently via Group Current Selection button while other nodes are present on the canvas. 	
 
-+ Fixed editor crash when trying to use Script Events method that was deleted 	
++ Fixed editor crash when trying to use Script Events method that was deleted.	
 
-+ Fixed crash upon undoing a collapse of a Group node freshly created via the Group Current Selection button 	
++ Fixed crash upon undoing a collapse of a Group node freshly created via the Group Current Selection button. 	
 
-+ Fixed collapsing and deleting an empty Group node created via Group Current Selection crashes the Editor 	
++ Fixed collapsing and deleting an empty Group node created via Group Current Selection crashes the Editor.	
 
-+ Fixed editor crash when saving or discarding a script with a group/comment created with the toolbar buttons 
++ Fixed editor crash when saving or discarding a script with a group/comment created with the toolbar buttons. 
 
 ## Miscellaneous<a name="misc-fixes-v1.22"></a>
 
