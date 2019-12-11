@@ -15,9 +15,47 @@ Lumberyard Beta [VERSION NUMBER]] resolves earlier problems. Choose a topic area
 + Fixed an issue in TestAssetBuilder where assets were failing to process if a subfolder was renamed while the Asset Processor was running.
 
 ## Editor<a name="editor-fixes-v1.22"></a>
++ Entities will not respect the lock/unlock status of their parent layers if a grandparant layers' lock/unlock state changes.
+
++ Fixed a crash that occured when dragging a slice from the slice favorite menu onto an instance of itself.
+
++ Fixed a crash that occured when deleting a folder from the slice favorites menu.
+
++ Fixed a crash that occured when attempting to save the deletion of an entity to a slice from the Save Slice Overrides (Advanced)... menu
+
++ Fixed a crash that occured when duplicating entities many times.
+
++ Fixed an editor crash that occured after changing Perforce settings.
+
++ Fixed a bug that caused the editor to freeze when selecting two entities with an Actor component and setting the target entity to the second entity.
+
++ Fixed a crash that occured when duplicating an entity after editing a component property while the component property field is still active.
+
++ Fixed a crash that occured when a component property is changed and game mode is immediately launched.
+
++ Fixed a crash that occured when returning from game mode as dynamic slices are being cleaned up.
+
++ Fixed a crash that occured after entering game mode before P4V finishes updating a modified asset.
+
++ Improved the performance of undo operations for entity manipulation. Translating 25 entities and pressing undo used to take ~15 seconds and now takes ~4.5 seconds.
+
++ Fixed a performance issue that caused the editor to lag every time a slice was selected in the Entity Outliner. Selection of a 10k slice entity hierarchy used to take ~3 seconds and now takes ~200ms. 
+
 + Selecting entities is now faster. Selection/deselection of all entities in a 20k level was 374 seconds and is now less than 10 (53x faster).
 
 + Entering Game Mode while an Entity Outliner filter is active is now faster. Entering Game Mode in a level with 20K entities while a filter is applied in the Entity Outliner used to take 5m 48s and now takes 3.18s.
+
++ Fixed a bug that caused an slice entity to deparent from a layer after revert overrides is used.
+
++ It is now possible to scale entities with a Look At component.
+
++ The slice favorites editor now has an option to import a slice from a right click menu.
+
++ The slice favorites gem is now enabled by default.
+
++ Exposed a new option in the Editor Settings called "Slice file location" which allows a user to change the default location that slices are saved.
+
++ Fixed a bug that caused an entity to become invisible after dragging an asset to the entity from the Asset Browser and then pressing undo.
 
 + Fixed a bug that occurred when searching for a component and clicking in the entity inspector that led to an unintended text field to appear.
 
