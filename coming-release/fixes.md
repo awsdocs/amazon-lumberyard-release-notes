@@ -4,15 +4,20 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 **Topics**
 + [Asset Pipeline](#pipeline-fixes-v1.22)
-+ [Editor](#editor-fixes-v1.22)
++ [Build](#build-fixes-v1.22)
 + [Dynamic Vegetation](#vegetation-fixes-v1.22)
++ [Editor](#editor-fixes-v1.22)
++ [Graphics](#graphics-fixes-v1.22)
 + [Script Canvas](#scriptcanvas-fixes-v1.22)
 + [Miscellaneous](#misc-fixes-v1.22)
 
 ## Asset Pipeline<a name="pipeline-fixes-v1.22"></a>
-
 + Fixed a race condition in TestAssetBuilder where clean builds sometimes (not always) failed on some (not all) test assets. 
+
 + Fixed an issue in TestAssetBuilder where assets were failing to process if a subfolder was renamed while the Asset Processor was running.
+
+## Build<a name="build-fixes-v1.22"></a>
++ Fixed an issue where modifying the ADDITIONAL_COPYRIGHT_TABLE in WAF would not update the copyright information and could make the build fail.
 
 ## Editor<a name="editor-fixes-v1.22"></a>
 + Entities will not respect the lock/unlock status of their parent layers if a grandparant layers' lock/unlock state changes.
@@ -111,6 +116,9 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 +  Fixed an issue displaying slice overrides in the outliner after unsuccessful slice push operations.
 
+## Graphics<a name="graphics-fixes-v1.22"></a>
++  Fixed a bug where particles with diffuse backlighting were drawn incorrectly due to an error in the vertex normal calculation.
+
 ## Dynamic Vegetation<a name="vegetation-fixes-v1.22"></a>
 
 + Fixed "Show Per Instance Visualization" not functioning properly on Vegetation Debugger Component.
@@ -140,3 +148,26 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 + Prior to release 1.22, transitions blended their playspeeds based on the current weight of the transition whether the sync was enabled or disabled.  In release 1.22, when syncing is disabled, the non-synced transitions now keep the source playspeed, which is the playspeed from the state it originated from until reaching the target state. The playspeed of the parent state machine will switch from the source playspeed to target state playspeed as soon as the transition is done.  When syncing is enabled, the transitions blend their playspeeds based on the current weight of the transition.
 
 + Starting with version 1.22, range based motion events will trigger event starts only when the time crosses the event start and land inside the range based event. In previous versions this range based motion event scenario would trigger event starts AND active events.
+
++ Fixed a bug that resulted in a crash due to a race condition in the streaming engine.
+
++ Fixed a bug that resulted in a crash when a dedicated server using the CloudGemFramework failed to assume a server identity.
+
++ Fixed an issue where TrackView timelines did not draw time scale text.
+
++ Added functionality to the MultiplayerSample to copy and install a missing root certificate for use on GameLift Linux servers.
+
++ Fixed a bug where some cvars declared with DeclareConstIntCVar were uninitialized value in release builds. <a href="https://github.com/aws/lumberyard/pull/421" target="blank">Pull request 421</a>
+
++ Fixed an issue found through static analysis where identical sub-expressions were used.  <a href="https://github.com/aws/lumberyard/pull/216" target="blank">Pull request 216</a>
+
++ Fixed an issue found through static analysis related to commas in conditional statements.  <a href="https://github.com/aws/lumberyard/pull/204" target="blank">Pull request 204</a>
+
++ Fixed an issue in GameObjectSystem and VehicleSystem where an array overrun might occur.  <a href="https://github.com/aws/lumberyard/pull/203" target="blank">Pull request 203</a>
+
++ Fixed an issue found through static analysis related to variables with the same name being redeclared.  <a href="https://github.com/aws/lumberyard/pull/202" target="blank">Pull request 202</a>
+
++ Added missing insert method to AzCore deque class that is present in standard.  <a href="https://github.com/aws/lumberyard/pull/112" target="blank">Pull request 112</a>
+
+
+
