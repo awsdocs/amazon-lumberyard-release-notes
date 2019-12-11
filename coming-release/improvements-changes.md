@@ -80,10 +80,39 @@ Some of the Gems included have new versions.
 ### Memory stomp detection tool
 When enabled, checks for memory corrupted by reads/writes outside the boundaries of allocated memory.   
 
+The primary sign of what might be a memory stomp is a crash with no obvious explanation, frequently in a low-level system or structure (such as an AZStd:: container) or within the memory allocator (but not an out-of-memory error).
+
+**To enable overrun detection:**
+
+1. Make sure you are building and running for Windows PC or supported console, in a Debug or Profile build. For certain consoles you will need to increase your memory to support overrun detection.
+1. Open dev/Dragonfly/Config/Game.xml. 
+   1. Item This file will be copied to several places. Edit this copy: dev/Dragonfly/Config/Launch/Game.xml
+   1. Item On consoles you can also edit it directly in the game folder on the console itself.
+1. Change useOverrunDetection from false to **true**.
+
+With overrun detection enabled, you can play the game normally. If any system reads or writes outside of memory allocated, the game will crash with a callstack at the point of the invalid read/write.
+
+**Notes:** 
++ There may be times where the game does not crash but instead hard-locks. In this case pause the debugger and note where it stopped. You should see a message towards the end of the output similar to "Exception thrown: invalid read/write". The wording of this message may vary from platform to platform.
+
++ If you try for a repro and encounter another crash, it may not always be the same bug. In most cases, different callstacks will indicate separate bugs, whereas similar callstacks will indicate the same bug.
+
+Additional notes on overrun detection mode:
+
++ Do **NOT** check in your modified Game.xml!
++ Overrun mode works only on Windows and supported consoles with additional memory allocated.
++ It is compiled out of Performance and Release modes.
++ The game will run slower and will definitely take a lot more memory!
++ The detector doesn't always release memory, and is liable to keep increasing consumption as gameplay continues. It should be enough to get through a level or two, but especially on limited platforms do not expect infinite progression.
+   1. Item If you run out of memory, it will crash in either WindowsPlatformAllocator::ReserveBytes or WindowsPlatformAllocator::CommitBytes.
+   1. Item Any invalid/read write will include the normal "Exception thrown: invalid read/write" message near the end of the output, so if you don't see that message this also indicates it's not a read/write bug.
++ This mode fundamentally mimics the behavior of GFlags with full page heap verification, but is available with the LY allocators without recompiling anything.
+
+
 ### Asset Memory Analyzer
 The Asset Memory Analyzer is an experimental feature that gives you a breakdown of all memory that has been allocated by the various assets loaded into the game. Use it to get a better idea of what assets are actually loaded at runtime and what their individual contribution is to memory use.
 
-##### Usage
+#### Usage
 
 **Enable the driller:**
 
