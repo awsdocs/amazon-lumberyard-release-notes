@@ -51,6 +51,8 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 + The slice favorites editor now has an option to import a slice from a right click menu.
 
+![Import Slice](coming-release/media/LY_Import Slice.gif)
+
 + The slice favorites gem is now enabled by default.
 
 + Exposed a new option in the Editor Settings called "Slice file location" which allows a user to change the default location that slices are saved.
@@ -77,7 +79,7 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 +  Users can now interact with asset reference property fields. You can click in a field, change the reference text, and see a list of assets that match the string and asset type appropriate for the field.
 
-![Asset reference property](/media/LY_asset_reference_property_fields.gif)
+![Asset reference property](coming-release/media/LY_asset_reference_property_fields.gif)
 
 +  Removed an invalid console warning that occurred when saving a layer after the first time the layer is saved.
 
@@ -90,6 +92,10 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 +  Entering rename mode but not renaming a layer no longer marks the layer as dirty.
 
 +  There is now a “find layer in Asset Browser” option from a layer in the Entity Outliner.
+
+
+![Find Layer](coming-release/media/LY_Find_Layer.gif)
+
 
 +  Fixed a bug that caused the editing of some properties in a pinned entity inspector to not update the unselected entity the pinned panel was pinned from.
 
