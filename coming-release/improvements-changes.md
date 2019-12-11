@@ -272,11 +272,18 @@ There is **zero cost to instrumentation** in builds where the AssetMemoryDriller
    + CPU: broken down by main allocators.
 + Restructure of Allocator's class hierarchy; making them more stable to boot ordering (solving some issues in Release/monolithic builds).
 + Memory driller: fixes to dump all allocations to CSV file.
-
 **NOTE**: With any change affecting memory layout, previous memory-related bugs that did not previously cause crashes/issues could now produce unexpected behavior. For example, a memory overrun that previously was not producing any visible/detectable bug, may now produce issues.
 
 + IMGUI Improvements: Now using the latest version of IMGUI with added support for consoles and controllers.
 + Asserts Framework improvement: Now using only AZ_Assert with 3 levels of the sys_assert CVAR:  0: nothing, 1: log only, 2: dialog when asserts fails on all platforms.
+
+#### Platforms SDK Versions
++ Linux : Ubuntu 16.04 LTS
++ MacOS:
+  * XCode 11
+  * OSX: Mojave 
+  * IOS:  v.13
++ Android : NDK r20 / API 29 
 
 ## Mobile<a name="mobile-improvements-changes-v1.22"></a>
 
