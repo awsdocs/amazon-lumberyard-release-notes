@@ -156,6 +156,7 @@ The audio system has the following known issues:
 + An **Audio Controls Editor** pop-up dialog box erroneously displays in the upper left corner.
 + The editor stops working if `AudioPreloadComponent::Deactivate` loads more than one preload. To work around this issue, ensure `AudioPreloadComponent::Deactivate` loads only one preload.
 + The editor stops working if you add multiple objects that have an audio effect and then trigger all objects simultaneously. The editor also stops working if the audio effects for multiple objects collide.
++ Running game launcher or Editor with an empty cache (where soundbanks haven't been processed yet) can result in an error.  Workaround: let assets process banks before running the application again.
 
 ## Audiokinetic Wwise and Wwise LTX<a name="audiokinetic-wwise-and-ltx-known-issues-v1.21"></a>
 
