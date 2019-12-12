@@ -1,6 +1,6 @@
 # Amazon Lumberyard Release Notes: Improvements and Changes in Beta 1.22 (December 2019)
 
-Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyard systems and functionality.
+Lumberyard Beta 1.22 provides improvements and changes to Lumberyard systems and functionality.
 
 **Topics**
 + [Asset Pipeline](#Pipeline-improvements-changes-v1.22)
