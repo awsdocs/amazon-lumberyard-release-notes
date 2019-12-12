@@ -57,8 +57,8 @@ Some of the Gems included with Lumberyard have new versions. To update:
 + Populate the app descriptors (see the command on this page https://docs.aws.amazon.com/lumberyard/latest/userguide/az-module-gems.html) to make sure your project continues to work.
 + If populating app descriptors fails for your project, manually edit your project's Gems.json file to reference the new versions of the Gems. 
 + Update your project's Editor.xml and Game.xml (found in the config folder under project root).
-  + In the editor.xml file, change the line mentioning Gem.LyShine to: <Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.LyShine.0fefab3f13364722b2eab3b96ce2bf20.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
-  + In the Game.xml file, update the line referencing the SaveData Gem to: <Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.SaveData.d96ab03f53d14c9e83f9b4528c8576d7.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>
+  + In the editor.xml file, change the line mentioning Gem.LyShine to: `<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.LyShine.0fefab3f13364722b2eab3b96ce2bf20.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>`
+  + In the Game.xml file, update the line referencing the SaveData Gem to: `<Class name="AZStd::string" field="dynamicLibraryPath" value="Gem.SaveData.d96ab03f53d14c9e83f9b4528c8576d7.v0.1.0" type="{189CC2ED-FDDE-5680-91D4-9F630A79187F}"/>`
 </Class>
 
 <Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
