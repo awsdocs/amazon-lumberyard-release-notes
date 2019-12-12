@@ -35,6 +35,8 @@ Here's a sampling of the new features found in Lumberyard [1.22 link].
 
 ### Asset Pipeline<a name="highlights-pipeline"></a>
 
+Lumberyard’s new asset dependency graph provides the means to determine the set of assets a given asset depends on. By recursively walking the entire dependency graph, we can easily determine the exact set of assets your game needs to run. So when it comes time to release your game, packaging your assets becomes a simple set of steps as opposed to a multi-week development effort. We've added some new tools and features to enable this for you and allow you to generate smaller asset bundles for your releae builds.
+
 **Asset Bundler** 
 
 A command line tool to bundle game assets for release. The following are additional new features that support Asset Bundling:
