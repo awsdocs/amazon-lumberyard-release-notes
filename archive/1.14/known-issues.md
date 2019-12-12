@@ -792,7 +792,6 @@ Starter Game has the following known issues:
 + Certain variables are not refreshed when playing the Starter Game level for the second time.
 + Certain assets may not load properly. This can cause the objects to flicker.
 + Vegetation textures may appear black when a map loads, if these textures are processed by Asset Processor while the map is loading. To work around this issue, restart Lumberyard Editor.
-+ If you run the StarterGame app on the Microsoft Xbox One Development Kit, you may occasionally experience issues with controller input on the title screen.
 
 ## Static Mesh Component<a name="static-mesh-component-known-issues-v1.14"></a>
 
