@@ -4,6 +4,7 @@ Lumberyard Beta [VERSION NUMBER]] provides improvements and changes to Lumberyar
 
 **Topics**
 + [Asset Pipeline](#Pipeline-improvements-changes-v1.22)
++ [Audio](#audio-improvements-changes-v1.22)
 + [AWS Native SDK Updated](#SDK-improvements-changes-v1.22)
 + [Large Worlds](#Worlds-improvements-changes-v1.22)
 + [Mobile](#mobile-improvements-changes-v1.22)
@@ -61,6 +62,17 @@ Some of the Gems included with Lumberyard have new versions. To update:
 </Class>
 
 <Class name="DynamicModuleDescriptor" field="element" type="{D2932FA3-9942-4FD2-A703-2E750F57C003}">
+
+## Audio<a name="audio-improvements-changes-v1.22"></a>
+
+### New Features
++ CrySoundSystem and CryAudioImplWwise engine modules have been converted to Gems.
+  * CrySoundSystem is now the "Audio System" Gem, found in Gems/AudioSystem.
+  * CryAudioImplWwise is now the "Wwise Audio Integration" Gem, found in Gems/AudioEngineWwise.
+  * **NOTE:** These Gems are optional.  If your project uses Wwise, run Project Configurator and enable "Audio System" and "Wwise Audio Integration" Gems.
+
+### Improvements
++ Xml parsing in the Audio System Gem now uses RapidXml.
 
 ## AWS Native SDK version update<a name="SDK-improvements-changes-v1.22"></a>
 
