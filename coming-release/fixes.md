@@ -13,8 +13,11 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 
 ## Asset Pipeline<a name="pipeline-fixes-v1.22"></a>
 + Fixed a race condition in TestAssetBuilder where clean builds sometimes (not always) failed on some (not all) test assets. 
-
 + Fixed an issue in TestAssetBuilder where assets were failing to process if a subfolder was renamed while the Asset Processor was running.
+
+## Dynamic Vegetation<a name="vegetation-fixes-v1.22"></a>
+
++ Fixed "Show Per Instance Visualization" not functioning properly on Vegetation Debugger Component.
 
 ## Build<a name="build-fixes-v1.22"></a>
 + Fixed an issue where modifying the ADDITIONAL_COPYRIGHT_TABLE in WAF would not update the copyright information and could make the build fail.
@@ -119,9 +122,6 @@ Lumberyard Beta 1.22 resolves earlier problems. Choose a topic area to learn mor
 ## Graphics<a name="graphics-fixes-v1.22"></a>
 +  Fixed a bug where particles with diffuse backlighting were drawn incorrectly due to an error in the vertex normal calculation.
 
-## Dynamic Vegetation<a name="vegetation-fixes-v1.22"></a>
-
-+ Fixed "Show Per Instance Visualization" not functioning properly on Vegetation Debugger Component.
 
 ## Script Canvas<a name="scriptcanvas-fixes-v1.22"></a>	
 
