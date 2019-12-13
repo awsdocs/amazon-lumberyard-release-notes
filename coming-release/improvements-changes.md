@@ -103,8 +103,8 @@ The primary sign of what might be a memory stomp is a crash with no obvious expl
 **To enable overrun detection:**
 
 1. Make sure you are building and running for Windows PC or supported console, in a Debug or Profile build. For certain consoles you will need to increase memory to support overrun detection.
-1. Open dev/Dragonfly/Config/Game.xml. 
-   1. This file will be copied to several places. Edit this copy: dev/Dragonfly/Config/Launch/Game.xml
+1. Open dev/{your-game-project-name}/Config/Game.xml. 
+   1. This file will be copied to several places. Edit this copy: dev/{your-game-project-name}/Config/Launch/Game.xml
    1. On consoles you can also edit it directly in the game folder on the console itself.
 1. Change useOverrunDetection from false to **true**.
 
@@ -138,7 +138,7 @@ The Asset Memory Analyzer is an experimental feature that gives you a breakdown 
 1. If you want to enable analysis in other build types (excluding Release), manually enable memory tracking:
    1. Edit dev/Code/Framework/AzCore/AzCore/Memory/Config.h
    1. Uncomment the line that says #define AZCORE_ENABLE_MEMORY_TRACKING
-1. Edit Game.xml located in dev/Dragonfly/Config:
+1. Edit Game.xml located in dev/{your-game-project-name}/Config:
    1. Set the field enableDrilling to true.
    1. Set the field enableAssetMemoryDriller to true.
 
@@ -161,7 +161,7 @@ Export the analysis to a JSON file in one of the following ways:
 + In the console, enter assetmem_export to generate the file.
 + From C++ code, call ExportJSONFile on the AssetMemoryAnalyzerRequestBus, with nullptr as the parameter to generate it to the default location.
   + Example: EBUS_EVENT(AssetMemoryAnalyzerRequestBus, ExportJSONFile, nullptr);
-This will generate a file in your @log@ directory (e.g. dev/Cache/dragonfly/pc/user/log on Windows) titled assetmem-<TIMESTAMP>.json.
+This will generate a file in your @log@ directory (e.g. dev/Cache/{your-game-project-name}/pc/user/log on Windows) titled assetmem-<TIMESTAMP>.json.
 
 **View JSON files in the web viewer:**
 
