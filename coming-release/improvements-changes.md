@@ -308,30 +308,11 @@ There is **zero cost to instrumentation** in builds where the AssetMemoryDriller
 + Support for Android Q - API 29.
 
 ## Platform<a name="platform-improvements-changes-v1.22"></a>
-+ Achievements/trophies Gem: The Achievement Gem provides an interface for your game to Achievement and Trophy services for console games. It allows for games to unlock, query, and update achievement and trophy data through the services provided for that console. 
 
++ Achievements/trophies Gem: The Achievement Gem provides an interface for your game to Achievement and Trophy services for console games. It allows for games to unlock, query, and update achievement and trophy data through the services provided for that console. 
 + Add Rich presence to Platform services: The Presence Gem provides an interface for your game to the Presence services for console games. It allows for games to set and query the presence status for a user on that console. Presence is the message that is displayed in friends lists and on a users profile as set by the game, based on the user's activity. 
 
 ## PhysX<a name="physx-improvements-changes-v1.22"></a>
-
-#### New Gems
-
-+ DevTextures: The DevTextures Gem is collection of textures used for development and debugging. It includes a variety of grid texture types such as middle grey checker, UV debugging grids, and simple shapes like dot and ring. The purpose of this Gem is to become a library for texture assets that are commonly used in projects.
-
-+ PhysXSamples: The PhysXSamples Gem houses a collection of sample slices and scripts ranging from introductory feature examples to a fully animated 3rd person character controller. (Currently PC Platform only)
-
-Slices in the Gem include:
-
-+ PhysX rigid body slices for box and sphere with one meter unit scale for convenience.
-+ RayShapeCollide - This simple slice, when dropped into a level has interactive samples and scripts that demo all the ways you can "reach out and touch" the world with PhysX. Scripts include how to:
-   1. Raycast and Multi-Raycast
-   1. Shape Cast examples for Sphere, Box and Capsule
-+ On Collision events
-+ On Trigger enter and exit events
-+ FlyController&Camera: Includes a simple flying controller and camera slices that users can drop into a level, giving them the ability to free fly around at run-time. Uses a simple kinematic rigid body and setting an entity's world translation to move around.
-+ Sphere Controllers: Two variations are included, a simple impulse-driven sphere controller,  and a slightly more complex articulated SphereBot controller (Return of the R0-B robot from Samples Project). Neither slice by default has camera, but can be combined with the Simple_Follow camera rig slice for a 3rd person experience. Alternately, users can create their own camera setups and attach them to the examples.
-+ Quadcopter: Uses impulse force powered by the new Post Physics handler to fly around and stabilize hovering. Additional scripts include camera rig behaviors customized for flying, and scripts that change the propeller rotation speed based on velocity. This slice can also be combined with the weapon projectile slice. which fires rigid body spheres, and the rotor wash slice which uses a force volume to interact with rigid bodies in the world. (Recommend turning on Continuous Collision Detection on in the Global Physics configuration settings.)
-+ Cowboy and Revolver: Example of using the PhysX character controller and actor components together with animation tools and script canvas to drive gameplay. Controller supports both root motion and direct motion for moving the controller. Included is a customized 3rd person camera rig and behaviors that use character speed to dynamically dolly the camera in/out and change the camera field of view. While the character pose assumes a weapon is always in hand, the Revolver gun slice is optional, and opens up the possibilities for weapons to be dynamically attached and detached. Unlike the rigid body weapon, the revolver uses ray casts for shooting (hit scan) and interpolates a tracer round to the target.
 
 #### Improvements
 
@@ -339,6 +320,7 @@ Slices in the Gem include:
 + Component mode is introduced for PhysX collider components. This allows the modification of shape dimensions, position and rotation offsets for collider components directly in the viewport with manipulators.
 + Force regions are improved to send impulses on post physics world update instead of the rendering tick.
 + Bug fixes.
+
 ## Networking<a name="network-improvements-changes-v1.22"></a>
 
 Network Context has the following improvements and changes:
