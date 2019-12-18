@@ -11,6 +11,7 @@ Lumberyard Beta 1.22 provides improvements and changes to Lumberyard systems and
 + [Networking](#network-improvements-changes-v1.22)
 + [Platform](#platform-improvements-changes-v1.22)
 + [PhysX](#physx-improvements-changes-v1.22)
++ [Python Support](#python-improvements-changes-v1.22)
 + [Systems](#systems-improvements-changes-v1.22)
 + [Twitch Commerce SDK](#Twitch-improvements-changes-v1.22)
 + [Visual Studio 2017](#VS-improvements-changes-v1.22)
@@ -320,6 +321,10 @@ There is **zero cost to instrumentation** in builds where the AssetMemoryDriller
 + Component mode is introduced for PhysX collider components. This allows the modification of shape dimensions, position and rotation offsets for collider components directly in the viewport with manipulators.
 + Force regions are improved to send impulses on post physics world update instead of the rendering tick.
 + Bug fixes.
+
+## Python Support<a name="python-improvements-changes-v1.22"></a>
+
++ In an upcoming release, Amazon Lumberyard will switch to Python 3.7.5. At that time, we will remove older versions of Python from the Lumberyard install.
 
 ## Networking<a name="network-improvements-changes-v1.22"></a>
 
