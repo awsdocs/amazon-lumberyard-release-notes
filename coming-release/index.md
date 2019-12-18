@@ -25,7 +25,11 @@ Here's a sampling of the new features found in Lumberyard [1.22 link].
 
 ### Visual Studio Support<a name="vs-support"></a>
 
-+ **IMPORTANT!** Visual Studio 2015 support has been deprecated starting with Amazon Lumberyard v1.22. References to Visual Studio 2015 and the VC140 binaries have been removed from the documentation for v1.22, as well. If you are on Visual Studio 2015 or an older version, refer to our archived [Amazon Lumberyard documentation for prior versions](https://docs.aws.amazon.com/lumberyard/latest/userguide/lumberyard-documentation-archive.html). The current supported version of Visual Studio is VS 2017 v15.9.2, and the supported VC++ binary version for builds is VC141.
++ **IMPORTANT!** Visual Studio 2015 support has been deprecated starting with Amazon Lumberyard v1.22. References to Visual Studio 2015 and the VC140 binaries have been removed from the documentation for v1.22, as well. If you are on Visual Studio 2015 or an older version, refer to our archived [Amazon Lumberyard documentation for prior versions](https://docs.aws.amazon.com/lumberyard/latest/userguide/lumberyard-documentation-archive.html). The current supported version of Visual Studio is VS 2017 v15.9.2 or later, and the supported VC++ binary version for builds is VC141.
+
+### Python Support<a name="python-support"></a>
+
++ **IMPORTANT!** In an upcoming release, Amazon Lumberyard will switch to Python 3.7.5. At that time, we will remove older versions of Python from the Lumberyard install.
 
 ### Editor
 
