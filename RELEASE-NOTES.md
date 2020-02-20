@@ -14,7 +14,7 @@ This is a public repo and all branches are visible. If you want to collaborate o
 
 The Release Notes are structured under two folders:
 
-- '/{current-release}', e.g. '/1.20' -- This contains the Release Notes for the **current** release.
+- '/{current-release}', e.g. '/1.22' -- This contains the Release Notes for the **current** release.
 - '/archive' -- This contains an archive of prior Release Notes, organized by release version number (for example, '/archive/1.21').
 
 In the {current-release} folder or a version-numbered folder in '/archive', you'll find 4 Markdown files:
