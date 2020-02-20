@@ -14,7 +14,7 @@ Lumberyard Beta 1.23 continues to add new features, improvements, and fixes. Tha
 ### New Tutorials
 Before you dive into the new features we've prepared, check out our new tutorials!
 
-+ A four-part video series on EMotionFX, our animation system. It'll guide you through a character's locomotion and over-the-shoulder aiming system are configured, and how you can modify it with the new PhysXSamples Gem. (See the rest of the release notes for more details on this Gem.) [Check them out here](https://docs.aws.amazon.com/lumberyard/latest/tutorials/tutorials-animation-graphs-aim-system.html)!
++ A four-part video series on EMotionFX, our animation system. It'll guide you through a character's locomotion and over-the-shoulder aiming system are configured, and how you can modify it with the new PhysXSamples Gem. (See the rest of the release notes for more details on this Gem.) [Check them out here](https://docs.aws.amazon.com/lumberyard/latest/tutorials/tutorials-animation-demo-aiming-system.html)!
 
 + A new written tutorial to accompany the Basics of Motion video tutorials. It'll go over how to work with Cameras, Script Canvas, and PhysX to get a rolling sphere with keyboard-and-mouse controls in a scene. [Read it here](https://docs.aws.amazon.com/lumberyard/latest/tutorials/tutorials-written-basics-of-motion-overview.html).
 
