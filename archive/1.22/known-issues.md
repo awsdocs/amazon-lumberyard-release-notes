@@ -3,85 +3,85 @@
 Lumberyard Beta 1.22 has the following known issues. Choose a topic area to learn more.
 
 **Topics**
-+ [3D Studio Max Tools and Plugin](#studio-max-tools-and-plugin-known-issues-v1.21)
-+ [Android](#android-known-issues-v1.21)
-+ [Android Studio](#android-studio-known-issues-v1.21)
-+ [Animation Editor](#animation-editor-known-issues-v1.21)
-+ [Area Objects and Triggers](#area-objects-and-triggers-known-issues-v1.21)
-+ [Asset Builder API](#asset-builder-api-known-issues-v1.21)
-+ [Asset Pipeline](#asset-pipeline-known-issues-v1.21)
-+ [Audio](#audio-known-issues-v1.21)
-+ [Audiokinetic Wwise and Wwise LTX](#audiokinetic-wwise-and-ltx-known-issues-v1.21)
-+ [Audio Components EBus](#audio-components-ebus-known-issues-v1.21)
-+ [Audio Proxy Component](#audio-proxy-components-known-issues-v1.21)
-+ [Cloud Canvas](#cloud-canvas-known-issues-v1.21)
-+ [Cloud Gems](#cloud-gems-known-issues-v1.21)
-+ [Cloud Gem Portal](#cloud-gem-portal-known-issues-v1.21)
-+ [Component Entity System](#component-entity-system-known-issues-v1.21)
-+ [Console Variables](#console-variables-known-issues-v1.21)
-+ [CryEngineNonRCModule](#CryEngineNonRCModule-known-issues-v1.21)
-+ [CryEntity](#cryentity-known-issues-v1.21)
-+ [Data Types](#data-types-known-issues-v1.21)
-+ [Decal Component](#decal-component-known-issues-v1.21)
-+ [Dedicated Server](#dedicated-server-known-issues-v1.21)
-+ [DirectX 12](#directx-12-known-issues-v1.21)
-+ [Environment Probe Resources](#environment-probe-resources-known-issues-v1.21)
-+ [FBX Settings](#fbx-known-issues-v1.21)
-+ [Flow Graph](#flow-graph-known-issues-v1.21)
-+ [Game Mode Functionality](#game-mode-functionality-known-issues-v1.21)
-+ [Game Projects](#game-project-creation-known-issues-v1.21)
-+ [Gems](#gems-known-issues-v1.21)
-+ [Geppetto](#character-editor-known-issues-v1.21)
-+ [Gloss Maps](#gloss-maps-known-issues-v1.21)
-+ [Graphics](#graphics-known-issues-v1.21)
-+ [GridMate](#gridmate-known-issues-v1.21)
-+ [Heightmap File](#missing-heightmap-file-known-issues-v1.21)
-+ [High DPI Display Support](#high-dpi-display-support-known-issues-v1.21)
-+ [Incredibuild](#incredibuild-known-issues-v1.21)
-+ [Installation Paths](#installation-paths-known-issues-v1.21)
-+ [iOS](#iOS-known-issues-v1.21)
-+ [Launcher Projects](#launcher-projects-known-issues-v1.21)
-+ [Lens Flare Elements](#lens-flare-elements-known-issues-v1.21)
-+ [Linux](#linux-known-issues-v1.21)
-+ [Lmbr.exe](#lmbr.exe-known-issues-v1.21)
-+ [Lumberyard Editor](#lumberyard-editor-known-issues-v1.21)
-+ [Lumberyard Installation](#lumberyard-installation-known-issues-v1.21)
-+ [Lumberyard Setup Assistant](#lumberyard-setup-assistant-known-issues-v1.21)
-+ [Lmbr.exe](#lmbr-exe-known-issues-v1.21)
-+ [Lmbr\_test.cmd Tool](#lmbr_test.cmd-tool-known-issues-v1.21)
-+ [Lyzard.exe](#lyzard.exe-known-issues-v1.21)
-+ [macOS](#macOS-known-issues-v1.21)
-+ [Mannequin](#mannequin-known-issues-v1.21)
-+ [Material Browser](#material-browser-known-issues-v1.21)
-+ [Material Editor](#material-editor-known-issues-v1.21)
-+ [Maya](#maya-known-issues-v1.21)
-+ [Mobile](#mobile-known-issues-v1.21)
-+ [Multiplayer Sample](#multiplayer-sample-known-issues-v1.21)
-+ [Particle Editor](#particle-editor-known-issues-v1.21)
-+ [Perforce Source Control](#perforce-source-control-known-issues-v1.21)
-+ [Physics (Legacy)](#physics-known-issues-v1.21)
-+ [PhysX](#physx-known-issues-v1.21)
-+ [Project Configurator](#project-configurator-known-issues-v1.21)
-+ [Resource Compiler](#resource-compiler-known-issues-v1.21)
-+ [SamplesProject](#samples-project-known-issues-v1.21)
-+ [Script Canvas](#script-canvas-known-issues-v1.21)
-+ [Slices](#slices-known-issues-v1.21)
-+ [Starter Game](#starter-game-known-issues-v1.21)
-+ [Static Mesh Component](#static-mesh-component-known-issues-v1.21)
-+ [Substance Editor](#substance-editor-known-issues-v1.21)
-+ [Terrain Texture Data](#terrain-texture-data-known-issues-v1.21)
-+ [Terrain Texture Dimensions](#terrain-texture-dimensions-known-issues-v1.21)
-+ [Track View](#track-view-known-issues-v1.21)
-+ [Trigger Area Component](#trigger-area-component-known-issues-v1.21)
-+ [Twitch ChatPlay and Twitch JoinIn](#twitch-chatplay-and-joinin-known-issues-v1.21)
-+ [UI Canvases](#ui-canvases-known-issues-v1.21)
-+ [Virtual Reality](#virtual-reality-known-issues-v1.21)
-+ [Visual Studio Support](#visual-studio-support-known-issues-v1.21)
-+ [Waf Build System](#waf-build-system-known-issues-v1.21)
-+ [Windows Environment Variables](#windows-environment-variables-known-issues-v1.21)
-+ [Miscellaneous](#miscellaneous-known-issues-v1.21)
++ [3D Studio Max Tools and Plugin](#studio-max-tools-and-plugin-known-issues-v1.22)
++ [Android](#android-known-issues-v1.22)
++ [Android Studio](#android-studio-known-issues-v1.22)
++ [Animation Editor](#animation-editor-known-issues-v1.22)
++ [Area Objects and Triggers](#area-objects-and-triggers-known-issues-v1.22)
++ [Asset Builder API](#asset-builder-api-known-issues-v1.22)
++ [Asset Pipeline](#asset-pipeline-known-issues-v1.22)
++ [Audio](#audio-known-issues-v1.22)
++ [Audiokinetic Wwise and Wwise LTX](#audiokinetic-wwise-and-ltx-known-issues-v1.22)
++ [Audio Components EBus](#audio-components-ebus-known-issues-v1.22)
++ [Audio Proxy Component](#audio-proxy-components-known-issues-v1.22)
++ [Cloud Canvas](#cloud-canvas-known-issues-v1.22)
++ [Cloud Gems](#cloud-gems-known-issues-v1.22)
++ [Cloud Gem Portal](#cloud-gem-portal-known-issues-v1.22)
++ [Component Entity System](#component-entity-system-known-issues-v1.22)
++ [Console Variables](#console-variables-known-issues-v1.22)
++ [CryEngineNonRCModule](#CryEngineNonRCModule-known-issues-v1.22)
++ [CryEntity](#cryentity-known-issues-v1.22)
++ [Data Types](#data-types-known-issues-v1.22)
++ [Decal Component](#decal-component-known-issues-v1.22)
++ [Dedicated Server](#dedicated-server-known-issues-v1.22)
++ [DirectX 12](#directx-12-known-issues-v1.22)
++ [Environment Probe Resources](#environment-probe-resources-known-issues-v1.22)
++ [FBX Settings](#fbx-known-issues-v1.22)
++ [Flow Graph](#flow-graph-known-issues-v1.22)
++ [Game Mode Functionality](#game-mode-functionality-known-issues-v1.22)
++ [Game Projects](#game-project-creation-known-issues-v1.22)
++ [Gems](#gems-known-issues-v1.22)
++ [Geppetto](#character-editor-known-issues-v1.22)
++ [Gloss Maps](#gloss-maps-known-issues-v1.22)
++ [Graphics](#graphics-known-issues-v1.22)
++ [GridMate](#gridmate-known-issues-v1.22)
++ [Heightmap File](#missing-heightmap-file-known-issues-v1.22)
++ [High DPI Display Support](#high-dpi-display-support-known-issues-v1.22)
++ [Incredibuild](#incredibuild-known-issues-v1.22)
++ [Installation Paths](#installation-paths-known-issues-v1.22)
++ [iOS](#iOS-known-issues-v1.22)
++ [Launcher Projects](#launcher-projects-known-issues-v1.22)
++ [Lens Flare Elements](#lens-flare-elements-known-issues-v1.22)
++ [Linux](#linux-known-issues-v1.22)
++ [Lmbr.exe](#lmbr.exe-known-issues-v1.22)
++ [Lumberyard Editor](#lumberyard-editor-known-issues-v1.22)
++ [Lumberyard Installation](#lumberyard-installation-known-issues-v1.22)
++ [Lumberyard Setup Assistant](#lumberyard-setup-assistant-known-issues-v1.22)
++ [Lmbr.exe](#lmbr-exe-known-issues-v1.22)
++ [Lmbr\_test.cmd Tool](#lmbr_test.cmd-tool-known-issues-v1.22)
++ [Lyzard.exe](#lyzard.exe-known-issues-v1.22)
++ [macOS](#macOS-known-issues-v1.22)
++ [Mannequin](#mannequin-known-issues-v1.22)
++ [Material Browser](#material-browser-known-issues-v1.22)
++ [Material Editor](#material-editor-known-issues-v1.22)
++ [Maya](#maya-known-issues-v1.22)
++ [Mobile](#mobile-known-issues-v1.22)
++ [Multiplayer Sample](#multiplayer-sample-known-issues-v1.22)
++ [Particle Editor](#particle-editor-known-issues-v1.22)
++ [Perforce Source Control](#perforce-source-control-known-issues-v1.22)
++ [Physics (Legacy)](#physics-known-issues-v1.22)
++ [PhysX](#physx-known-issues-v1.22)
++ [Project Configurator](#project-configurator-known-issues-v1.22)
++ [Resource Compiler](#resource-compiler-known-issues-v1.22)
++ [SamplesProject](#samples-project-known-issues-v1.22)
++ [Script Canvas](#script-canvas-known-issues-v1.22)
++ [Slices](#slices-known-issues-v1.22)
++ [Starter Game](#starter-game-known-issues-v1.22)
++ [Static Mesh Component](#static-mesh-component-known-issues-v1.22)
++ [Substance Editor](#substance-editor-known-issues-v1.22)
++ [Terrain Texture Data](#terrain-texture-data-known-issues-v1.22)
++ [Terrain Texture Dimensions](#terrain-texture-dimensions-known-issues-v1.22)
++ [Track View](#track-view-known-issues-v1.22)
++ [Trigger Area Component](#trigger-area-component-known-issues-v1.22)
++ [Twitch ChatPlay and Twitch JoinIn](#twitch-chatplay-and-joinin-known-issues-v1.22)
++ [UI Canvases](#ui-canvases-known-issues-v1.22)
++ [Virtual Reality](#virtual-reality-known-issues-v1.22)
++ [Visual Studio Support](#visual-studio-support-known-issues-v1.22)
++ [Waf Build System](#waf-build-system-known-issues-v1.22)
++ [Windows Environment Variables](#windows-environment-variables-known-issues-v1.22)
++ [Miscellaneous](#miscellaneous-known-issues-v1.22)
 
-## 3D Studio Max Tools and Plugin<a name="studio-max-tools-and-plugin-known-issues-v1.21"></a>
+## 3D Studio Max Tools and Plugin<a name="studio-max-tools-and-plugin-known-issues-v1.22"></a>
 
 The 3D Studio Max tools and plugin have the following known issues:
 + When using the 3ds Max plugin, you might receive a runtime error if you have an object selected with the CrySkin modifier and you right-click to dismiss the menu.
@@ -90,7 +90,7 @@ The 3D Studio Max tools and plugin have the following known issues:
 + Rotations that are applied on the root bone of a skeleton won't load in Lumberyard. You won't receive an error message; however, to prevent this issue don't apply rotations to the root bone of a skeleton in 3ds Max.
 + To ensure 3ds Max exports correctly, you must save your `.max` file before changing the **Custom Export Path** field.
 
-## Android<a name="android-known-issues-v1.21"></a>
+## Android<a name="android-known-issues-v1.22"></a>
 
 Android has the following known issues:
 + You may experience low memory or out-of-memory issues if your game project includes numerous gems, and you attempt to run a debug build of your app on older devices with less than 3 GB of onboard RAM. To prevent this issue, you can disable gems that aren't required for your project. You can also create monolithic debug builds by editing the `waf_branch_spec.py` file to change line 166 from `android_release` to `android`. This file is located in the `lumberyard_version\dev` directory.
@@ -99,11 +99,11 @@ Android has the following known issues:
 + Lumberyard applications don't run properly on the Asus ZenFone 3 Max.
 + You may receive the following build error message: "Task in 'javac' was not executed for some reason." This occurs if the generated output files exceed the maximum path length for the host platform. To work around this issue, use a shorter path for your project or Lumberyard installation.
 
-## Android Studio<a name="android-studio-known-issues-v1.21"></a>
+## Android Studio<a name="android-studio-known-issues-v1.22"></a>
 
 When you open an Android Studio project on Windows, you may receive a warning about CMake modules exceeding the maximum file path length. Because the Waf build system handles native builds, you can safely ignore these warnings.
 
-## Animation Editor<a name="animation-editor-known-issues-v1.21"></a>
+## Animation Editor<a name="animation-editor-known-issues-v1.22"></a>
 
 The Animation Editor has the following known issues:
 + If your `.fbx` file contains only skeletons and bones, an `.actor` file won't be created. To create an `.actor` file, you must include a skinned mesh and corresponding skeletons and bones in your `.fbx` file.
@@ -122,15 +122,15 @@ The Animation Editor has the following known issues:
 + In a remote desktop session, opening an `.fbx` file in the **Animation Editor** causes Lumberyard Editor to stop working. This is due to a known issue with OpenGL and RDP.
 + For simulated objects, there might be visual jittering or instability in the **Animation Editor** or during gameplay mode.
 
-## Area Objects and Triggers<a name="area-objects-and-triggers-known-issues-v1.21"></a>
+## Area Objects and Triggers<a name="area-objects-and-triggers-known-issues-v1.22"></a>
 
 You can use area objects to create three-dimensional zones in a level that are then used to trigger events. If a player is detected within the trigger volume of an area object, the trigger is activated. Area triggers that use the **AreaSolid** object type as the trigger detection volume don't work properly. You can use the **Shape** object type instead.
 
-## Asset Builder API<a name="asset-builder-api-known-issues-v1.21"></a>
+## Asset Builder API<a name="asset-builder-api-known-issues-v1.22"></a>
 
 ProcessJobRequest `m_sourceFile` contains the `[output]` parameter that is specified in the `assetprocessorplatformconfig.ini` file for a given watch folder. If a full path to the asset is required for the **Asset Builder**, you can use `m_fullPath` from ProcessJobRequest instead.
 
-## Asset Pipeline<a name="asset-pipeline-known-issues-v1.21"></a>
+## Asset Pipeline<a name="asset-pipeline-known-issues-v1.22"></a>
 
 The Asset Pipeline has the following known issues:
 + If you switch branches, you must restart Asset Processor.
@@ -148,7 +148,7 @@ The Asset Pipeline has the following known issues:
 + Asset Processor may freeze if you run Xcode for Mac and then run Asset Processor in profile mode.
 + When using the new missing asset reporting tools (Bundle mode, Seed Mode) textures will not always be properly logged.
 
-## Audio<a name="audio-known-issues-v1.21"></a>
+## Audio<a name="audio-known-issues-v1.22"></a>
 
 The audio system has the following known issues:
 + Sound obstruction doesn't run when you toggle **AI/Physics** mode.
@@ -158,7 +158,7 @@ The audio system has the following known issues:
 + The editor stops working if you add multiple objects that have an audio effect and then trigger all objects simultaneously. The editor also stops working if the audio effects for multiple objects collide.
 + Running game launcher or Editor with an empty cache (where soundbanks haven't been processed yet) can result in an error.  Workaround: let assets process banks before running the application again.
 
-## Audiokinetic Wwise and Wwise LTX<a name="audiokinetic-wwise-and-ltx-known-issues-v1.21"></a>
+## Audiokinetic Wwise and Wwise LTX<a name="audiokinetic-wwise-and-ltx-known-issues-v1.22"></a>
 
 Audiokinetic Wwise and Wwise LTX have the following known issues:
 + The following issues are known when installing Wwise LTX:
@@ -173,7 +173,7 @@ Audiokinetic Wwise and Wwise LTX have the following known issues:
 + Video playback isn't yet capable of rendering audio. To work around this issue, use Wwise to play your video's audio separately.
 + Reloading the **Audio Controls Editor** after creating new controls without saving (thereby discarding your changes) can prevent the Wwise controls from returning to the unassigned state. If you discard your changes using this method, we recommend that you restart the **Audio Controls Editor** to prevent further issues.
 
-## Audio Components EBus<a name="audio-components-ebus-known-issues-v1.21"></a>
+## Audio Components EBus<a name="audio-components-ebus-known-issues-v1.22"></a>
 
 The following audio components EBus have been renamed for consistency across components:
 + **AudioTriggerComponentRequestsBus** renamed to **AudioTriggerComponentRequestBus**
@@ -185,11 +185,11 @@ The following audio components EBus have been renamed for consistency across com
 
 If you use the old EBus names in Lua or native C\+\+, you must update your code to use the new EBus names. This applies if you manipulate or call into the audio components from code.
 
-## Audio Proxy Component<a name="audio-proxy-components-known-issues-v1.21"></a>
+## Audio Proxy Component<a name="audio-proxy-components-known-issues-v1.22"></a>
 
 The **Audio Proxy** component is meant to be a silent partner component for other audio components. All audio components depend on the **Audio Proxy** component. In order to use this component, you must manually add it to a new component entity.
 
-## Cloud Canvas<a name="cloud-canvas-known-issues-v1.21"></a>
+## Cloud Canvas<a name="cloud-canvas-known-issues-v1.22"></a>
 
 Cloud Canvas has the following known issues:
 + Pressing **Ctrl\+F** in the Cloud Canvas Resource Manager opens the **Editor Unfreeze All** window rather than the expected **Search** window. To open the **Search** window, click **Edit**, **Search**.
@@ -248,7 +248,7 @@ Cloud Canvas has the following known issues:
 + If you insert a minimum value that is greater than the maximum value in the **Add Leaderboard** window, you will see an incorrect error message.
 + In the **Credentials Manager**, after you perform multiple profile creation and deletion operations, the profile list doesn't update correctly, and already deleted profiles may still be present on the profile list.
 
-## Cloud Gems<a name="cloud-gems-known-issues-v1.21"></a>
+## Cloud Gems<a name="cloud-gems-known-issues-v1.22"></a>
 
 Cloud gems have the following known issues:
 + Cloud gems are now built using versioning to prevent future breaking changes. Cloud gem versioning also allows dependencies on different versions of other gems, such as the Cloud Gem Framework. To use this new functionality, you must follow the steps outlined in the [Lumberyard 1.10 migration section](https://docs.aws.amazon.com/lumberyard/latest/userguide/lumberyard-migrating-1-10.html) of the *Amazon Lumberyard User Guide*.
@@ -366,7 +366,7 @@ Cloud gems have the following known issues:
 **Gem User Login: Default**
 + This gem is no longer useful and will be deprecated in a future release. Previously release builds required end users to log in for configuration settings like action maps. We have implemented the user login feature to enable quick testing and verification of release builds.
 
-## Cloud Gem Portal<a name="cloud-gem-portal-known-issues-v1.21"></a>
+## Cloud Gem Portal<a name="cloud-gem-portal-known-issues-v1.22"></a>
 
 The Cloud Gem Portal has the following known issues:
 + Basic user permissions require S3 PUT, S3 GET, AWS CloudFormation `DescribeStack`, and Amazon Cognito read. You can use the following IAM built-in policies for basic users: [AmazonS3FullAccess](https://console.aws.amazon.com/iam/home?region=us-east-1#/policies/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3FullAccess), [AWSCloudFormationReadOnlyAccess](https://console.aws.amazon.com/iam/home?region=us-east-1#/policies/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAWSCloudFormationReadOnlyAccess), and [AmazonCognitoReadOnly](https://console.aws.amazon.com/iam/home?region=us-east-1#/policies/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonCognitoReadOnly).
@@ -376,7 +376,7 @@ The Cloud Gem Portal has the following known issues:
 + Adding a message with more than 170 characters can corrupt the layout in the **Message of the Day** section. This impedes your ability to access the **Edit** and **Delete** options for all message tiles.
 + Cloud gems won't display in the Cloud Gem Portal if your project stack name contains two or more dashes between the alphanumeric characters. In addition, the project stack name won't display correctly. For example, a project stack name of *xx---xx---* will appear as *xx--xx*.
 
-## Component Entity System<a name="component-entity-system-known-issues-v1.21"></a>
+## Component Entity System<a name="component-entity-system-known-issues-v1.22"></a>
 
 The component entity system has the following known issues:
 + If you select a layer in the **Entity Outliner** while the translation tool is active, the coordinates/transform area in the bottom toolbar becomes available to manually enter values. This is erroneous behavior and may create issues.
@@ -390,15 +390,15 @@ The component entity system has the following known issues:
 
   To work around this issue, use the **Delete component** option.
 
-## Console Variables<a name="console-variables-known-issues-v1.21"></a>
+## Console Variables<a name="console-variables-known-issues-v1.22"></a>
 
 You can't edit text-based fields in the [Console Variables](https://docs.aws.amazon.com/lumberyard/latest/userguide/console-intro.html) window. To work around this issue, manually specify the console variable name and the value: `VARIABLE_NAME = new value`. For more information, see [Configuring Console Variables in Configuration Files](https://docs.aws.amazon.com/lumberyard/latest/userguide/console-intro.html#configuring-console-variables-cvars-with-the-configuration-file) in the *Amazon Lumberyard User Guide*.
 
-## CryEngineNonRCModule<a name="CryEngineNonRCModule-known-issues-v1.21"></a>
+## CryEngineNonRCModule<a name="CryEngineNonRCModule-known-issues-v1.22"></a>
 
 `CryEngineNonRCModule` has been removed. If you are upgrading your projects from Lumberyard 1.4 or earlier, you must update all references of `CryEngineNonRCModule` to `CryEngineModule` in your wscript files.
 
-## CryEntity<a name="cryentity-known-issues-v1.21"></a>
+## CryEntity<a name="cryentity-known-issues-v1.22"></a>
 
 CryEntities have the following known issues:
 + Lumberyard Editor may freeze if you attempt to use excessively high values for legacy CryEntity parameters, such as road width.
@@ -416,15 +416,15 @@ CryEntities have the following known issues:
 + When you convert your legacy entities, the **Static** parameter for the **Transform** component is disabled by default. This may impact references to the entity. For more information, see [Converting Entities with the Legacy Converter](https://docs.aws.amazon.com/lumberyard/latest/userguide/component-entity-data-converter.html).
 + Legacy objects in **Track View** sequences aren't automatically converted to component entities. To work around this issue, you can manually recreate the sequences in the **Track View** editor.
 
-## Data Types<a name="data-types-known-issues-v1.21"></a>
+## Data Types<a name="data-types-known-issues-v1.22"></a>
 
 The `.cga` and `.anm` data types are deprecated.
 
-## Decal Component<a name="decal-component-known-issues-v1.21"></a>
+## Decal Component<a name="decal-component-known-issues-v1.22"></a>
 
 The **Decal** component's visual representation has been updated to follow the entity's transform position. Now when you use a **Decal** component and move the object in-game, the location of the decal is updated. This update may introduce performance issues when several decals in the game frequently update their position.
 
-## Dedicated Server<a name="dedicated-server-known-issues-v1.21"></a>
+## Dedicated Server<a name="dedicated-server-known-issues-v1.22"></a>
 
 The **Asset Processor** executable located in the `Bin64vc120.dedicated` and `Bin64vc140.dedicated` directories doesn't work properly. To work around this issue, do one of the following:
 + Use the precompiled, profile version of Asset Processor. You can find Asset Processor in the `Bin64vc120` or `Bin64vc140` directory.
@@ -445,11 +445,11 @@ The **Asset Processor** executable located in the `Bin64vc120.dedicated` and `Bi
 
   1. Launch your dedicated server. Asset Processor won't launch because the assets were prebuilt.
 
-## DirectX 12<a name="directx-12-known-issues-v1.21"></a>
+## DirectX 12<a name="directx-12-known-issues-v1.22"></a>
 
 You may receive the following warning when you use `lmbr_waf configure --win-build-renderer=DX12`: "win\_build\_renderer == DX12 but machine can't compile for DX12, reverting to DX11." You can safely ignore this warning, which references the configuration for Android and Visual Studio 2013. DirectX 12 will configure correctly for the Visual Studio 2015 Windows build.
 
-## Environment Probe Resources<a name="environment-probe-resources-known-issues-v1.21"></a>
+## Environment Probe Resources<a name="environment-probe-resources-known-issues-v1.22"></a>
 
 Lumberyard 1.16 introduced changes to the algorithm for compiling environment probe resources that results in sharper reflections. A future version of Lumberyard will revert these changes. To work around this issue in the meantime, follow the steps below.
 
@@ -481,7 +481,7 @@ Lumberyard 1.16 introduced changes to the algorithm for compiling environment pr
 **Note**  
 This action will recompile all assets.
 
-## FBX Settings<a name="fbx-known-issues-v1.21"></a>
+## FBX Settings<a name="fbx-known-issues-v1.22"></a>
 
 FBX settings have the following known issues:
 + Adding a physics proxy rule to or removing one from a mesh group may cause `.cgf` assets to display incorrectly or prevent `.cgf` assets from rendering. To work around this issue, close and reopen Lumberyard Editor.
@@ -490,7 +490,7 @@ FBX settings have the following known issues:
 + After you change the settings for an `.fbx` file, the referenced materials are incorrectly reported as broken until the material is updated. This occurs the first time you change the file's settings.
 + The **FBX Settings** tool stops working if you dock the window to the editor while the **Select nodes** window is open.
 
-## Flow Graph<a name="flow-graph-known-issues-v1.21"></a>
+## Flow Graph<a name="flow-graph-known-issues-v1.22"></a>
 
 The **Flow Graph** system has the following known issues:
 + The `Game:Stop` node doesn't trigger on exit from game mode as expected. If you use the `Game:Stop` node to clean up flow graph activities that use ongoing resources, these activities may remain active.
@@ -498,11 +498,11 @@ The **Flow Graph** system has the following known issues:
 + The `Material:MaterialParams` node doesn't allow any parameters to be selected.
 + From the context menu **Add Node**, **UIe**, the sub menu is empty. To work around this issue, use the **Components** pane in the **Flow Graph** editor to add the UIe nodes.
 
-## Game Mode Functionality<a name="game-mode-functionality-known-issues-v1.21"></a>
+## Game Mode Functionality<a name="game-mode-functionality-known-issues-v1.22"></a>
 
 The game mode (**Ctrl\+G**) functionality doesn't work as expected after creating a new level. To resolve this issue, you can save the new level immediately after creation and then reopen the level from the **File** menu in Lumberyard Editor.
 
-## Game Projects<a name="game-project-creation-known-issues-v1.21"></a>
+## Game Projects<a name="game-project-creation-known-issues-v1.22"></a>
 
 The following issues impact the creation of external game project directories:
 + A linker error exists that prevents external game projects from building successfully.
@@ -510,7 +510,7 @@ The following issues impact the creation of external game project directories:
 
 Until fixes are available, please continue to use the existing project creation workflow. For more information, see [Creating and Launching Game Projects](https://docs.aws.amazon.com/lumberyard/latest/userguide/configurator-projects.html) in the *Amazon Lumberyard User Guide*.
 
-## Gems<a name="gems-known-issues-v1.21"></a>
+## Gems<a name="gems-known-issues-v1.22"></a>
 
 Gems have the following known issues:
 + When creating a new gem using the **Project Configurator**, a malformed file prevents tests from being built when using a test build configuration. To resolve this issue, modify the `gem_name_test.waf_files` file to use the name `gem_name_tests.waf_files`. For example, a new gem called *MyGem* with a file name `mygem_test.waf_files` would now be `mygem_tests.waf_files`.
@@ -520,7 +520,7 @@ Gems have the following known issues:
 + Lumberyard 1.11 includes preliminary changes that will enable gems to interface with the renderer in limited ways. These changes to export rendering APIs aren't fully functional and will continue to evolve. They should not yet be used.
 + The Boids gem is deprecated as of Lumberyard 1.13 and will be removed in a future release.
 
-## Geppetto<a name="character-editor-known-issues-v1.21"></a>
+## Geppetto<a name="character-editor-known-issues-v1.22"></a>
 
 The Geppetto system has the following known issues:
 + The **Copy Path** and **Show in Explorer** options in the context menu don't work correctly.
@@ -536,11 +536,11 @@ The Geppetto system has the following known issues:
 + If multiple clips in a bspace use the same parametric value, a repeating error window appears. You can resolve this issue by closing and reopening the editor. 
 + If you create a new `.chr` file immediately after opening an existing `.chr` file, Lumberyard Editor may become unresponsive and fail. To prevent failure and potential data loss, be sure to save all changes and restart the editor before creating new `.chr` files.
 
-## Gloss Maps<a name="gloss-maps-known-issues-v1.21"></a>
+## Gloss Maps<a name="gloss-maps-known-issues-v1.22"></a>
 
 Using gloss maps on imported Substances doesn't properly configure the gloss map. To work around this issue, if you plan to use a gloss map in the alpha channel of your Substance's normal map, manually export the normal map, and then connect it to your material like you normally would, but without using the **Substance Editor** to connect the normal map.
 
-## Graphics<a name="graphics-known-issues-v1.21"></a>
+## Graphics<a name="graphics-known-issues-v1.22"></a>
 
 Graphics have the following known issues:
 + A crash occurs if you use Null renderer with game launchers (`r_driver=NULL`) and content that contains GPU particles.
@@ -560,7 +560,7 @@ Graphics have the following known issues:
 + Rendering components, such as decals, are saved twice when you export a level.
 + The renderer is limited to a maximum of 65536 camera-visible render objects for applications that use the **Infinite Ocean** component. Exceeding this threshold may result in flickering and other undesirable rendering artifacts.
 
-## GridMate<a name="gridmate-known-issues-v1.21"></a>
+## GridMate<a name="gridmate-known-issues-v1.22"></a>
 
 The following services will be deprecated and replaced with gems in a future release:
 + `GridMate/Online`
@@ -568,18 +568,18 @@ The following services will be deprecated and replaced with gems in a future rel
 + `GridMate/Achievements`
 + `GridMate/Leaderboards`
 
-## Heightmap File<a name="missing-heightmap-file-known-issues-v1.21"></a>
+## Heightmap File<a name="missing-heightmap-file-known-issues-v1.22"></a>
 
 Lumberyard 1.12 is missing a heightmap file that you may need to complete the getting started tutorials and videos. You can download the `FTUE_heightmap_Test.tif` file [here](https://dvbcuh49skxb5.cloudfront.net/releases/1.12/FTUE_heightmap_Test.tif) and save to your `/1.12.0.0/dev/StarterGame/Textures/Heightmaps `directory.
 
-## High DPI Display Support<a name="high-dpi-display-support-known-issues-v1.21"></a>
+## High DPI Display Support<a name="high-dpi-display-support-known-issues-v1.22"></a>
 
 High DPI display support has the following known issues:
 + Lumberyard now supports high DPI displays. Most elements in Lumberyard Editor will render at a reasonable size; however, some elements may still render too small. For example, some elements of the **Rollup Bar** render too small on high DPI displays.
 + Lumberyard supports whole number scale factors only. If the DPI is set to 1.5, the value will be rounded to 2. This will display most elements 0.5 times larger than expected.
 + When using Lumberyard Editor on a high DPI display, the mouse input for a UI canvas doesn't work properly. To work around this issue, close the editor, lower the resolution (for example, 1920 x 1080), and then restart the editor.
 
-## Incredibuild<a name="incredibuild-known-issues-v1.21"></a>
+## Incredibuild<a name="incredibuild-known-issues-v1.22"></a>
 
 When attempting to build Lumberyard with Incredibuild, builds running in parallel may occasionally fail due to missing moc files. You can retry the build or modify the `profile.xml` file (located in the `\Code\Tools\waf-1.7.3` directory) to set **AllowRemote** to **false** for the moc tool:
 
@@ -587,14 +587,14 @@ When attempting to build Lumberyard with Incredibuild, builds running in paralle
 <Tool Filename="moc" AllowIntercept="false" AllowRemote="false" AllowPredictedBatch="true" DeriveCaptionFrom="lastparam"/>
 ```
 
-## Installation Paths<a name="installation-paths-known-issues-v1.21"></a>
+## Installation Paths<a name="installation-paths-known-issues-v1.22"></a>
 
 Installation paths have the following known issues:
 + An installation path that exceeds 54 characters may result in an error message or installation hang when installing third-party SDKs. To work around this issue, use the default Lumberyard installation path or ensure your installation path is 54 characters or less.
 + An installation path that meets or exceeds 64 characters will cause building Lumberyard to fail. To work around this issue, you can rename the package so that the path to `\dev` is fewer than 64 characters.
 + Running the `lmbr_waf` command on a path that includes spaces may result in errors and a build failure. To work around this issue, ensure that your installation path doesn't include spaces.
 
-## iOS<a name="iOS-known-issues-v1.21"></a>
+## iOS<a name="iOS-known-issues-v1.22"></a>
 
 iOS has the following known issues:
 + It is possible that, when deploying a debug build with a Virtual File System (VFS) configuration for iOS, the engine can take up to 20 minutes to initialize.
@@ -613,26 +613,26 @@ iOS has the following known issues:
      BinMac64/rc/rc /job=./BinMac64/rc/RCJob_Generic_MakePaks.xml /p=ios /game=samplesproject /trg=./Cache/SamplesProject/ios_paks
      ```
 
-## Launcher Projects<a name="launcher-projects-known-issues-v1.21"></a>
+## Launcher Projects<a name="launcher-projects-known-issues-v1.22"></a>
 
-Unified cross-platform client and server launcher projects have been added in Lumberyard version 1.21. In a future release, these projects will replace the existing platform-specific launcher projects. For more information, see [Launcher Projects](lumberyard-v1.21.md#lumberyardv1.21-highlights-launcher-projects) in the Highlights section.
+Unified cross-platform client and server launcher projects have been added in Lumberyard version 1.22. In a future release, these projects will replace the existing platform-specific launcher projects. For more information, see [Launcher Projects](lumberyard-v1.22.md#lumberyardv1.22-highlights-launcher-projects) in the Highlights section.
 
-## Lens Flare Elements<a name="lens-flare-elements-known-issues-v1.21"></a>
+## Lens Flare Elements<a name="lens-flare-elements-known-issues-v1.22"></a>
 
 Lens flare elements have the following known issues:
 + Copying a lens flare element from one library and pasting it into another library produces scale and visibility issues for the copied lens flare elements. To work around this issue, copy the XML code from the source library into the target library—however, the issue persists when adding new flares and elements thereafter.
 + When you create a new texture and assign it to a lens flare, the rendered texture may appear blurry or low resolution. This isn't noticeable in the **Lens Flare Editor** and in gameplay mode. To work around this issue, you must set the **LensOptics** setting for lens flare textures. Navigate to the directory where your texture is saved, right-click the texture, and select **RC Open Image**. In the image dialog box, under **Preset**, select **LensOptics** from the drop-down list. Click **OK**.
 + Lumberyard Editor stops working if you use the **Count** slider for the **Multi Ghost** property in the **Lens Flare Editor**. To work around this issue, manually enter the specified number. 
 
-## Linux<a name="linux-known-issues-v1.21"></a>
+## Linux<a name="linux-known-issues-v1.22"></a>
 
 If you attempt to launch a Linux dedicated server from the `MultiplayerSample_pc_Paks_Dedicated` directory, the server won't launch due to an issue on Linux that prevents `AWS_CPP_SDK_ALL` from copying. To work around this issue, you can copy the Linux `libaws*` and `libcurl.a` AWS Native SDK libraries (located in the `3rdParty` directory) to the appropriate `BinLinux` directory.
 
-## Lmbr.exe<a name="lmbr.exe-known-issues-v1.21"></a>
+## Lmbr.exe<a name="lmbr.exe-known-issues-v1.22"></a>
 
 If you use `Lmbr.exe` to create projects from the command line, you must capitalize the drive letter in the path. For example, `C:\MyProject`.
 
-## Lumberyard Editor<a name="lumberyard-editor-known-issues-v1.21"></a>
+## Lumberyard Editor<a name="lumberyard-editor-known-issues-v1.22"></a>
 
 Lumberyard Editor has the following known issues:
 + The editor fails to start when building in debug/profile with the **editor and plugins** configuration. You can build using the **all** configuration instead.
@@ -655,13 +655,13 @@ Lumberyard Editor has the following known issues:
 + The editor stops working if you set the `r_Height` console variable to **0**.
 + Your game project might not compile successfully or function correctly if you name the new game project the same name as an enabled gem when creating the project.
 
-## Lumberyard Installation<a name="lumberyard-installation-known-issues-v1.21"></a>
+## Lumberyard Installation<a name="lumberyard-installation-known-issues-v1.22"></a>
 
 The Lumberyard installation has the following known issues:
 + Google Chrome version 64.0.3282.119 (Official Build) (64-bit) blocks the download for the Lumberyard Installer executable file. To fix this issue, update Google Chrome to the latest version and then download the installer.
 + The Windows Defender SmartScreen filter may trigger a warning when you attempt to run the Lumberyard Installer. To proceed with the installation, confirm that the executable file is safe.
 
-## Lumberyard Setup Assistant<a name="lumberyard-setup-assistant-known-issues-v1.21"></a>
+## Lumberyard Setup Assistant<a name="lumberyard-setup-assistant-known-issues-v1.22"></a>
 
 Lumberyard Setup Assistant has the following known issues:
 + Installation paths for the `3rdParty` directory can't exceed the designated length. If you exceed the length limit, you will receive a notification.
@@ -701,7 +701,7 @@ Lumberyard Setup Assistant has the following known issues:
 
   To work around this issue, you must enable all three compile options.
 
-## Lmbr.exe<a name="lmbr-exe-known-issues-v1.21"></a>
+## Lmbr.exe<a name="lmbr-exe-known-issues-v1.22"></a>
 
 You can't download third-party SDKs using the `lmbr thirdpartysdk setups` command in the `Lmbr.exe` command-line tool. To work around this issue, use the [Lumberyard Setup Assistant](https://docs.aws.amazon.com/lumberyard/latest/userguide/lumberyard-launcher-using.html) to download third-party SDKs.
 
@@ -726,17 +726,17 @@ If the `SetupAssistantUserPreferences.ini` file doesn't exist in the `/dev` dire
    lmbr thirdpartysdks setup
    ```
 
-## Lmbr\_test.cmd Tool<a name="lmbr_test.cmd-tool-known-issues-v1.21"></a>
+## Lmbr\_test.cmd Tool<a name="lmbr_test.cmd-tool-known-issues-v1.22"></a>
 
 The `lmbr_test.cmd` tool uses a Python SDK location that might not work if you use a new version of Lumberyard. To resolve this issue, you can edit `lmbr_test.cmd` to use the following values:
 + Change `SET SDKS_DIR=%CMD_DIR%\Code\SDKs` to `SET SDKS_DIR=%CMD_DIR%\Tools`
 + Change `SET PYTHON=%PYTHON_DIR\x64\python.exe` to `SET PYTHON=%PYTHON_DIR\python.cmd`
 
-## Lyzard.exe<a name="lyzard.exe-known-issues-v1.21"></a>
+## Lyzard.exe<a name="lyzard.exe-known-issues-v1.22"></a>
 
 Existing projects may crash the `Lyzard.exe` application. This is a result of the gem modules that are described in the app descriptor for the game project not being in the correct order based on dependencies. To fix this issue, you must enable gems for your project, which forces the **Project Configurator** to update the app descriptors for the project. You can do this in the **Project Configurator** by choosing **Enable Gems** for your project, enabling a gem, choosing **Save**, disabling the gem, and then choosing **Save**.
 
-## macOS<a name="macOS-known-issues-v1.21"></a>
+## macOS<a name="macOS-known-issues-v1.22"></a>
 
 macOS has the following known issues:
 + Do not use spaces when you set the **whitelist** field in the `config.ini` file for the CrySCompileServer. This prevents validation of the IP address from working.
@@ -750,13 +750,13 @@ macOS has the following known issues:
 
   1. Link the launcher. For example, you can use the following command: `./lmbr_waf.sh build_darwin_x64_profile -p all`
 
-## Mannequin<a name="mannequin-known-issues-v1.21"></a>
+## Mannequin<a name="mannequin-known-issues-v1.22"></a>
 
 The **Mannequin** system has the following known issues:
 + The **Transition Editor** doesn't currently save changes.
 + The **Mannequin Editor** appears very small when you open it for the first time.
 
-## Material Browser<a name="material-browser-known-issues-v1.21"></a>
+## Material Browser<a name="material-browser-known-issues-v1.22"></a>
 
 The material browser has the following known issues:
 + When **Asset Processor** processes an `.fbx` file, Lumberyard automatically generates a default material file (`.mtl`) in the cache folder. The default material file appears under the `.fbx` file in the material browser hierarchy. If you edit the default material file in the **Material Editor**, the file is overwritten. A source file replaces the default material file in the project folder and the `.fbx` and `.mtl` files disappear from the material browser hierarchy.
@@ -791,7 +791,7 @@ The material browser has the following known issues:
   These buttons will function a few seconds after opening the **Material Editor** for a project with several thousand materials.  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/lumberyard/latest/releasenotes/images/Selection.JPG)
 
-## Material Editor<a name="material-editor-known-issues-v1.21"></a>
+## Material Editor<a name="material-editor-known-issues-v1.22"></a>
 
 The Material Editor has the following known issues:
 + The **Material Editor** item tree displays a verbose path when you create a new material. You can resolve this issue by refreshing the item tree.
@@ -800,7 +800,7 @@ The Material Editor has the following known issues:
 + When you select multiple materials, you can only merge the materials. You may have unintended results if you edit parameters or use functions other than merging.
 + Clouds don't render if they use materials with the Common.Cloud object or the VolumeObject shader. To work around this issue, you can use volumetric clouds.
 
-## Maya<a name="maya-known-issues-v1.21"></a>
+## Maya<a name="maya-known-issues-v1.22"></a>
 
 Maya has the following known issues:
 + In the Maya Lumberyard Tool, the UDP editing tool breaks if changes are made to the LY\_MAYA\_SCRIPT\_PATH. To customize tools, you should add your own environment variable rather than changing this package variable.
@@ -811,17 +811,17 @@ Maya has the following known issues:
 
   Add the following to the **PYTHONPATH** variable, using a semicolon to separate paths: `;E:\Amazon\Lumberyard\1.6.0.0\dev\Tools\maya\script`
 
-## Mobile<a name="mobile-known-issues-v1.21"></a>
+## Mobile<a name="mobile-known-issues-v1.22"></a>
 
 Do not use spaces when you set the **whitelist** field in the `config.ini` file for the CrySCompileServer. This prevents validation of the IP address from working.
 
-## Multiplayer Sample<a name="multiplayer-sample-known-issues-v1.21"></a>
+## Multiplayer Sample<a name="multiplayer-sample-known-issues-v1.22"></a>
 
 The Multiplayer Sample launcher (`MultiplayerSampleLauncher.exe`) stops working if you execute:
 + The `mpjoin` command twice from the **Console**. The issue occurs after the client disconnects from and then rejoins the host.
 + The `map MultiplayerSample` command from the **Console**. The issue occurs if you previously started and then disconnected the host on another map.
 
-## Particle Editor<a name="particle-editor-known-issues-v1.21"></a>
+## Particle Editor<a name="particle-editor-known-issues-v1.22"></a>
 
 The Particle Editor has the following known issues:
 + The following keyboard shortcuts don't work properly:
@@ -853,7 +853,7 @@ The Particle Editor has the following known issues:
 + When you enter the @ character in the search field, the search results include all libraries and particles. However, the @ character is invalid and should not return any results.
 + The editor stops working if you use Windows File Explorer to edit a particle library name that is listed in the **Particle Editor Libraries** pane. To work around this issue, use the **Particle Editor** to make any changes to the libraries.
 
-## Perforce Source Control<a name="perforce-source-control-known-issues-v1.21"></a>
+## Perforce Source Control<a name="perforce-source-control-known-issues-v1.22"></a>
 
 Perforce source control has the following known issues:
 + Some editor UIs will interact with your Perforce server. If the connection to your server is poor or you are experiencing other connection issues, the editor UI may briefly hitch during the connection attempt.
@@ -865,7 +865,7 @@ Perforce source control has the following known issues:
 
   This issue can also occur when you change the editor to offline mode.
 
-## Physics (Legacy)<a name="physics-known-issues-v1.21"></a>
+## Physics (Legacy)<a name="physics-known-issues-v1.22"></a>
 
 The legacy physics system has the following known issues:
 + If a physics proxy rule is removed from a mesh group, you must do one of the following to remove the physics proxy material:
@@ -874,7 +874,7 @@ The legacy physics system has the following known issues:
 + Physics meshes don't live reload properly for `.cgf` files when a change occurs on disk. To work around this issue, you can manually reload by clicking **Tools**, **Reload Scripts**, **Reload All Scripts** in Lumberyard Editor.
 + If you switch between mass and density on a **Physics** component, you must enter and exit game mode or enable **AI/Physics** mode for the change to take effect.
 
-## PhysX<a name="physx-known-issues-v1.21"></a>
+## PhysX<a name="physx-known-issues-v1.22"></a>
 
 The PhysX system has the following known issues:
 + The PhysX system and the legacy physics system aren't yet at feature parity. Use the legacy physics system for features such as AI navigation mesh, force and wind volume, water buoyancy, cloth, vehicles, and vegetation bending.
@@ -908,24 +908,24 @@ The PhysX system has the following known issues:
   1. Update the center of mass so that it is the center of the object.
 + When there is more than one **PhysX Ragdoll** component in your level, increasing the **Position Iteration Count** and **Velocity Iteration Count** parameters of one ragdoll affects the other ragdolls.
 
-## Project Configurator<a name="project-configurator-known-issues-v1.21"></a>
+## Project Configurator<a name="project-configurator-known-issues-v1.22"></a>
 
 The Project Configurator has the following known issues:
 + You may receive an error message the first time that you attempt to set a default project in the **Project Configurator**. To work around this issue, set the default project again. The second attempt will succeed.
 + New projects aren't created successfully if you specify a single C\+\+ keyword for the project name. This includes the following C\+\+ keywords: `if`, `while`, `break`, `new`, and `virtual`. To work around this issue, avoid using C\+\+ keywords for the project name.
 + A project's launcher won't work properly if you set the worker threads setting to **1** for the **Job Manager** component. To work around this issue, use values **0** or **2** to **16**.
 
-## Resource Compiler<a name="resource-compiler-known-issues-v1.21"></a>
+## Resource Compiler<a name="resource-compiler-known-issues-v1.22"></a>
 
 **Resource Compiler** may occasionally crash when processing textures, such as cubemaps. Lumberyard Editor will automatically resolve this issue by recompiling the affected asset.
 
-## SamplesProject<a name="samples-project-known-issues-v1.21"></a>
+## SamplesProject<a name="samples-project-known-issues-v1.22"></a>
 
 SamplesProject has the following known issues:
 + In the SamplesProject, Example 7 in the Trigger\_Sample map doesn't work. The door trigger doesn't open as expected.
 + The `SamplesProjectLauncher.exe` remains running in the Task Manager after quitting.
 
-## Script Canvas<a name="script-canvas-known-issues-v1.21"></a>
+## Script Canvas<a name="script-canvas-known-issues-v1.22"></a>
 
 Script Canvas has the following known issues:
 + You can unhide nodes that were not tested. To do so, in Script Canvas, choose **Edit**, **Settings**, **Global Preferences**. In the **Global Preferences** window, select **Show nodes excluded from preview**.
@@ -959,7 +959,7 @@ Script Canvas has the following known issues:
 + Nodes in Lumberyard versions 1.11, 1.12, or 1.13 might no longer form connections to new nodes. To fix this, you might need to recreate them.
 + When using the new dynamic nodes from version 1.19, it's possible that Lumberyard stops working if an invalid graph logic is built. Specifically, this occurs when you use a dynamic node in two execution threads where data is only passed from one execution thread. To fix this, reform the dynamic node's connections.
 
-## Slices<a name="slices-known-issues-v1.21"></a>
+## Slices<a name="slices-known-issues-v1.22"></a>
 
 Slices have the following known issues:
 + Changes that you make to a slice instance may impact the order of any child elements that are added to the slice instance.
@@ -985,7 +985,7 @@ Slices have the following known issues:
 
   1. Load your level.
 
-## Starter Game<a name="starter-game-known-issues-v1.21"></a>
+## Starter Game<a name="starter-game-known-issues-v1.22"></a>
 
 Starter Game has the following known issues:
 + Lumberyard Editor intermittently crashes when repeatedly entering or exiting gameplay.
@@ -1030,15 +1030,15 @@ Starter Game has the following known issues:
 + Vegetation textures may appear black when a map loads, if these textures are processed by Asset Processor while the map is loading. To work around this issue, restart Lumberyard Editor.
 + The order-independent transparency (OIT) demonstration cave is temporarily disabled. The teleporter now jumps to the next available cave.
 
-## Static Mesh Component<a name="static-mesh-component-known-issues-v1.21"></a>
+## Static Mesh Component<a name="static-mesh-component-known-issues-v1.22"></a>
 
 The **Affects Navmesh** check box for the **Static Mesh** component doesn't affect nav mesh generation.
 
-## Substance Editor<a name="substance-editor-known-issues-v1.21"></a>
+## Substance Editor<a name="substance-editor-known-issues-v1.22"></a>
 
 Lumberyard Editor may become unresponsive and shut down if you attempt to delete or reimport Substance `.sbsar` files that were created in Lumberyard 6.0 or earlier.
 
-## Terrain Texture Data<a name="terrain-texture-data-known-issues-v1.21"></a>
+## Terrain Texture Data<a name="terrain-texture-data-known-issues-v1.22"></a>
 
 Projects that are created in Lumberyard 1.9 and earlier store and interpret terrain texture data as BGR format. In Lumberyard 1.10, terrain texture data was erroneously updated to store and interpret as RGB format. Because of this change, any terrain created in Lumberyard 1.9 and earlier was stored as BGR but interpreted as RGB. The red and blue channels were swapped.
 
@@ -1048,7 +1048,7 @@ The fix for this issue has the following impact:
 
 Because the default terrain texture is grayscale, this issue affects only terrain modified with color data in Lumberyard 1.10. To fix this issue, you can export the megatexture, swap red and blue using a paint program, and reimport the megatexture.
 
-## Terrain Texture Dimensions<a name="terrain-texture-dimensions-known-issues-v1.21"></a>
+## Terrain Texture Dimensions<a name="terrain-texture-dimensions-known-issues-v1.22"></a>
 
 When you create a level, the second step prompts you to select texture dimensions in the **Generate Terrain Texture** dialog box. Selecting any of the values has no visible consequence; the native dimensions that are stored in the default terrain will remain 1024 x 1024.
 
@@ -1078,7 +1078,7 @@ For example, you can update the 2K terrain in your level to use 16K of terrain c
 
    1. Click **Close**.
 
-## Track View<a name="track-view-known-issues-v1.21"></a>
+## Track View<a name="track-view-known-issues-v1.22"></a>
 
 The **Track View** editor has the following known issues:
 + The **Update** button in the **Render Output** dialog box doesn't work.
@@ -1090,7 +1090,7 @@ The **Track View** editor has the following known issues:
 + The editor stops working if you press the **Undo** and **Redo** buttons multiple times after copying, pasting, and moving the keys in an event track.
 + Animations don't play correctly if you set **BlendIn** and **BlendOut** values on `.fbx` files that have a **Simple Motion** track, and attempt to move the track needle forward and backwards through the animation keyframes.
 
-## Trigger Area Component<a name="trigger-area-component-known-issues-v1.21"></a>
+## Trigger Area Component<a name="trigger-area-component-known-issues-v1.22"></a>
 
 The **Trigger Area** component has the following known issues:
 + In **AI/Physics** mode, the **Trigger Area** component is triggered by the editor's flying camera.
@@ -1099,13 +1099,13 @@ The **Trigger Area** component has the following known issues:
 + Trigger areas aren't triggered when a stationary entity is inside the area on game start.
 + Moving trigger areas can't interact with stationary entities.
 
-## Twitch ChatPlay and Twitch JoinIn<a name="twitch-chatplay-and-joinin-known-issues-v1.21"></a>
+## Twitch ChatPlay and Twitch JoinIn<a name="twitch-chatplay-and-joinin-known-issues-v1.22"></a>
 
 Twitch ChatPlay is no longer compatible with Lumberyard version 1.5 or earlier. To work around this issue, you can do one of the following:
 + Upgrade to Lumberyard version 1.6.
 + Merge the changes made to Twitch ChatPlay and the TwitchAPI in Lumberyard version 1.6 into your existing projects.
 
-## UI Canvases<a name="ui-canvases-known-issues-v1.21"></a>
+## UI Canvases<a name="ui-canvases-known-issues-v1.22"></a>
 
 UI Canvases have the following known issues:
 + When the LyShineExamples gem is enabled, references to the following files in the `\dev\Gems\LyShineExamples\Assets\UI\Canvases\LyShineExamples\` directory are invalid:
@@ -1115,7 +1115,7 @@ UI Canvases have the following known issues:
   + `Comp\Mask\ChildMaskElement.uicanvas`
   + `Comp\Mask\NestedMasks.uicanvas`
 
-## Virtual Reality<a name="virtual-reality-known-issues-v1.21"></a>
+## Virtual Reality<a name="virtual-reality-known-issues-v1.22"></a>
 
 The virtual reality system has the following known issues:
 + Lumberyard's VR features aren't functional if you are using the OSVR HDK headset on a Windows 7 PC with an NVIDIA graphics card.
@@ -1138,7 +1138,7 @@ The virtual reality system has the following known issues:
 + The Xylophone level has incorrect audio hooks, which impacts the sound.
 + The Islands level experiences some jitter on the teleportation markers.
 
-## Visual Studio Support<a name="visual-studio-support-known-issues-v1.21"></a>
+## Visual Studio Support<a name="visual-studio-support-known-issues-v1.22"></a>
 
 Visual studio support has the following known issues:
 + Lumberyard supports Microsoft Visual Studio 2015 Update 3 or later. By default, the Visual Studio 2015 installation doesn't include C\+\+ as an installed language. In order to build, you must select **C\+\+**, its child options, and **MFC** during the Visual Studio 2015 installation. To verify your current installation, click **Control Panel**, **Programs and Features**, **Microsoft Visual Studio 2015**. Next, select **Modify** to view or add **C\+\+** and **MFC** support.
@@ -1146,7 +1146,7 @@ Visual studio support has the following known issues:
 + An application binary interface (ABI) incompatibility exists between Visual Studio 2017 version 15.6.6 and version 15.7.4. This may cause incompatibility issues with prepackaged `.dll` files in Lumberyard. To work around this issue, update Visual Studio 2017 to version 15.7.4 or newer.
 + Visual Studio 2015 will be deprecated in a future release. Lumberyard will support Visual Studio 2015 until the option is removed from Lumberyard Setup Assistant.
 
-## Waf Build System<a name="waf-build-system-known-issues-v1.21"></a>
+## Waf Build System<a name="waf-build-system-known-issues-v1.22"></a>
 
 The Waf build system has the following known issues:
 + If you attempt to build an existing project with the new Waf build system code base, projects that use the function `Path` in the wscript files may encounter Waf build errors. To resolve this issue, update the wscript files to use `bld.Path` instead.
@@ -1169,11 +1169,11 @@ The Waf build system has the following known issues:
      lmbr_waf configure 
      ```
 
-## Windows Environment Variables<a name="windows-environment-variables-known-issues-v1.21"></a>
+## Windows Environment Variables<a name="windows-environment-variables-known-issues-v1.22"></a>
 
 If you set Windows environment variables (user or system), those values will override the settings in configuration files for programs such as Perforce, Autodesk Maya, and Lumberyard. This may cause issues when using these programs. We recommend that you don't set environment variables for these programs; instead you should use the settings in configuration files for these programs.
 
-## Miscellaneous<a name="miscellaneous-known-issues-v1.21"></a>
+## Miscellaneous<a name="miscellaneous-known-issues-v1.22"></a>
 
 The following are miscellaneous known issues:
 + The `OnSpawned()` method for `SpawnerComponentNotificationBus` passes a C\+\+ container to Lua, which causes an error.
