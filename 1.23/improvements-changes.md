@@ -78,7 +78,7 @@ We've got a lot of good stuff for the folks who work with game physics in this r
 
 ### Experimental Release of the NVIDIA Cloth Gem:
 
- This new Gem allows designers and artists to quickly and easily create, customize, and iterate on cloth simulations. With the NVIDIA Cloth Gem you will be able to add cloth simulation to your characters and environments. Read more about it in the Amazon Lumberyard docs.
+ This new Gem allows designers and artists to quickly and easily create, customize, and iterate on cloth simulations. With the NVIDIA Cloth Gem you will be able to add cloth simulation to your characters and environments. Read more about it in the [Amazon Lumberyard docs](https://docs.aws.amazon.com/lumberyard/latest/userguide/component-slice-upgrade-process.html).
 
 + **Note**: Supported Platforms: PC only. Other platforms untested. No mobile controls have been set up.
 
