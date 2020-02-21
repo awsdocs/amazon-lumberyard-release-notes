@@ -45,7 +45,7 @@ Use it when:
 **Note**
 This pipeline is not currently intended to update your slices when changing your component serialization. To get that update, use the Resave All Slices command in the Lumberyard Editor File menu.
 
-Read more about how the new slice format works, how to use the new format for slice component versioning, and how to upgrade your project to use it.
+Read more about how the [new slice format works](https://docs.aws.amazon.com/lumberyard/latest/userguide/dynamic-slices-overview-anatomy.html), how to [use the new format for slice component versioning](https://docs.aws.amazon.com/lumberyard/latest/userguide/component-entity-system-versioning.html), and [how to upgrade your project to use it](https://docs.aws.amazon.com/lumberyard/latest/userguide/component-slice-upgrade-process.html).
 
 ## Editor
 
