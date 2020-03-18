@@ -84,6 +84,18 @@ Scripting has the following fixes:
 
 + Fixed a crash when executing UI Anchors, UI Offsets, or UI Padding Script Canvas nodes.
 
+### Cloud Gem Framework
+
+The Cloud Gem Framework gem has the following fixes:
+
++ Security improvements to enforce assumeRole boundaries made to Cognito roles within Cloud Formation and Cloud Canvas configurations.
+
+### Player Accounts
+
+The Player Account gem has the following fixes:
+
++ Security improvements to enforce assumeRole boundaries made to Cognito roles within Cloud Formation and Cloud Canvas configurations.
+
 ## Deprecated APIs
 
 The following APIs have been deprecated in Lumberyard Beta v1.23:
